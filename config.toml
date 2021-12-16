@@ -3,7 +3,7 @@ theme = "hugo-apero"
 languageCode = "en"
 title = "Mind the Gap"
 author = "Thomas Lieb"
-copyright = "2021 Thomas Lieb" # set to override the auto generated copyright using org info and now year
+copyright = "2021 Thomas Lieb, Dublin, Ireland" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
@@ -28,8 +28,8 @@ enableEmoji = true
     style = "github"
     
 [params]
-  #orgName = "RStudio"
-  #orgLocal = "Anywhere"
+  orgName = "Thomas Lieb"
+  orgLocal = "Dublin, Ireland"
   description = "Mind the Gap - A Blog by Thomas Lieb"
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
@@ -61,8 +61,8 @@ enableEmoji = true
   # serif options: Fraunces / EB Garamond / Bitter
   # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
   # if you import your own fonts, name them here too
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
+  customtextFontFamily = ""
+  customheadingFontFamily = "" # "Bitter" is nice too
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
