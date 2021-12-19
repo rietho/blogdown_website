@@ -1,4 +1,4 @@
-baseURL = "https://mind-the-gap-blog.netlify.app/"
+baseURL = "https://gapthemind.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Gap the Mind"
