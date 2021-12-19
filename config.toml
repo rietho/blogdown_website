@@ -1,7 +1,7 @@
 baseURL = "https://mind-the-gap-blog.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Mind the Gap"
+title = "Gap the Mind"
 author = "Thomas Lieb"
 copyright = "2021 Thomas Lieb, Dublin, Ireland" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
@@ -30,9 +30,9 @@ enableEmoji = true
 [params]
   orgName = "Thomas Lieb"
   orgLocal = "Dublin, Ireland"
-  description = "Mind the Gap - A Blog by Thomas Lieb"
+  description = "Gap the Mind Blog"
   favicon = "/img/favicon.ico"
-  logo = "/img/blogophonic-mark-dark.png"
+  logo = "/img/gapthemind-logo-grey.png"
   mainSections = ["blog"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -110,15 +110,20 @@ enableEmoji = true
 [menu]
   # Configure header 
   [[menu.header]]
+    name = "Home"
+    title = "Gap the Mind Blog"
+    url = "/"
+    weight = 1
+  [[menu.header]]
     name = "About"
     title = "About Me"
     url = "/about/"
-    weight = 1
+    weight = 2
   [[menu.header]]
     name = "Blog"
     title = "Blog"
     url = "/blog/"
-    weight = 2
+    weight = 3
     
   # Configure footer  
   [[menu.footer]]

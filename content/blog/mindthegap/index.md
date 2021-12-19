@@ -3,12 +3,13 @@ author: Thomas Lieb
 categories:
 date: "2021-12-17"
 draft: false
-excerpt: The *Mind the Gap* blog is a personal experiment. I'm blogging about
-  content that interests me like mindfulness, management or data analysis. Join
-  me to see where this journey takes this blog.
+excerpt: The *Gap the Mind* blog is starting as a blogging experiment. 
+  I'm blogging about content that interests evolving around data science (in a broad sense),
+  management and mental health. I like some of my content. Comments and suggestions
+  are warmly welcomed.
 layout: single
-subtitle: It's an experiment, it's a journey. So let's stay curious and explore.
-title: About the "Mind the Gap" blog
+subtitle: An experiment and a journey to find more about data science, management and mental health.
+title: About the "Gap the Mind" blog
 ---
 
 Read here my awseome introduction!
