@@ -1,10 +1,10 @@
 ---
 date: "2021-13-17"
-description: I love to chat with people interested in what I write. Feel free
-  to comment on my posts, contact me on social media or send me a message using
-  this form.
+description: I'm happy to chat. Feel free
+  to comment on my posts, contact me on social mediaa, mail me on 
+  gapthemindblog@gmail.com or use the form right here.
 draft: false
-formspree_form_id: id-from-formspree
+formspree_form_id: xjvlvqpl
 layout: split-right
 name: Contact Me Form
 show_poweredby_formspree: true

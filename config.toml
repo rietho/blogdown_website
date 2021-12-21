@@ -1,11 +1,11 @@
-baseURL = "https://gapthemind.netlify.app/"
+baseURL = "https://gapthemind.info/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Gap the Mind"
 author = "Thomas Lieb"
 copyright = "2021 Thomas Lieb, Dublin, Ireland" # set to override the auto generated copyright using org info and now year
-googleAnalytics = ""
-disqusShortname = "" # see params.utterances to use utterances instead of Disqus
+googleAnalytics = "G-NYMTZXZR2B"
+disqusShortname = "gapthemind-info" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
@@ -48,14 +48,14 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "sky"
+  theme = ""
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
   # the custom scss file must be in the assets/ folder
   # add the filename name here, without extension
   # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = "" 
+  custom_theme = "mysky-hex" 
   
   # use an embedded font-family
   # serif options: Fraunces / EB Garamond / Bitter
