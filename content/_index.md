@@ -3,8 +3,8 @@ action_label: Read More &rarr;
 action_link: /about
 action_type: text
 description: Hi there! Welcome to the *Gap the Mind* blog. Here you can learn
-  more about me and some topics I'm interested in. That is (at least for a 
-  start) data science, management and mental health.
+  more some topics I'm interested in and also abut me. That is -- at least for a 
+  start -- data science, management and mental health.
 image_left: false
 images:
 - img/gapthemind-logo-grey.png

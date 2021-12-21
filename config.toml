@@ -33,7 +33,7 @@ enableEmoji = true
   description = "Gap the Mind Blog"
   favicon = "/img/favicon.ico"
   logo = "/img/gapthemind-logo-grey.png"
-  mainSections = ["blog"]
+  mainSections = ["home", "about", "blog"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -41,7 +41,7 @@ enableEmoji = true
   socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/gapthemind-logo-featured.png"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "thomasrieben"
   
@@ -70,11 +70,11 @@ enableEmoji = true
 
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
-    use_utterances = true
-    repo_name = "apreshill/apero"
+    use_utterances = false
+    repo_name = ""
     issue_term = "pathname" # url, pathname, or title
     theme = "boxy-light"
-    label = "comments :crystal_ball:"
+    label = ""
 
   # Configuration of math rendering
   [params.math]
