@@ -136,6 +136,16 @@ enableEmoji = true
     title = "Contact form"
     url = "/contact/"
     weight = 2
+  [[menu.footer]]
+    name = "Categories"
+    title = "Categories"
+    url = "/categories/"
+    weight = 3
+  [[menu.footer]]
+    name = "Tags"
+    title = "Tags"
+    url = "/tags/"
+    weight = 4
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
