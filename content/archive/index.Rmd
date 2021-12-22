@@ -1,0 +1,80 @@
+---
+title: "Archive"
+subtitle: ""
+excerpt: "testing the excerpt field"
+date: 2020-12-30
+author: "Thomas Lieb"
+draft: true
+layout: single
+url: archive
+---
+
+```{r include=FALSE}
+# get function to build archive
+scan_yaml <- getFromNamespace("scan_yaml", "blogdown")
+
+require(tidyverse)
+require(lubridate)
+
+# get yamls
+wd <- getwd()
+setwd("../../")
+all_yaml <- scan_yaml()
+wd <- getwd()
+# extract blog yamls
+blog_yamls <- all_yaml[
+  names(all_yaml) %>% str_detect("content/blog/.*/index.md")]
+# remove drafts
+#blog_yamls <- blog_yamls[map(blog_yamls, ~ !.x$draft) %>% unlist()]
+# order by date
+blog_yamls <- blog_yamls[map(blog_yamls, ~ .x$date) %>% unlist() %>% order()]
+
+# What I need
+# * title
+# * date
+# * remove drafts
+
+x <- blog_yamls %>% imap(~ list(
+  title = .x$title, 
+  year = year(.x$date), 
+  month = month(.x$date, label = TRUE, abbr = FALSE),
+  link = str_extract(.y, "(?<=content/).*(?=index\\.md)")))
+
+df <- do.call(rbind.data.frame, x) %>% remove_rownames() %>% 
+  mutate(text = glue::glue("[{title}](../{link})")) %>% 
+  select(year, month, text) %>% 
+  arrange(desc(year), desc(month), text)
+
+X <- rle(df$year)
+Y <- cumsum(c(1, X$lengths[-length(X$lengths)]))
+df[setdiff(1:nrow(df), Y), "year"] <- NA
+```
+
+
+<div align = "left"> <!--Wrap in div to not apply Hugo table layout.-->
+```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+require("knitr")
+require("kableExtra")
+require("tidyverse")
+require("magrittr")
+options(knitr.kable.NA = '')
+
+# to get from SCSS file "../../assets/mysky-hex.scss"
+color <- "#274b9f"
+
+# df <- data.frame(
+#   year = c("2021", "", "", "2020"),
+#   month = c("December", "", "July", "November"),
+#   post = c("post A", "post B", "post C", "[post D](https://gapthemind.info)")
+#   )
+knitr::kable(df, col.names = NULL, table.envir = "mytable") %>% 
+  kable_minimal(full_width = F, position = "left") %>% 
+  column_spec(1, width = "7rem", bold = TRUE, color = color, 
+              extra_css = "font-size: 3rem; vertical-align: text-bottom;") %>% 
+  column_spec(2, width = "7rem", bold = TRUE, 
+              extra_css = "font-size: 2.25rem; vertical-align: text-bottom;") %>% 
+  column_spec(3, extra_css = "vertical-align: text-bottom;") #padding: 0 10px 0 0;
+```
+</div>
+
+
