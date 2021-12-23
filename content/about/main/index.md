@@ -6,10 +6,7 @@ use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  This blog is, well, about "gaps" and "minds". I'm starting this as a blogging experiment. 
-  The content will be about topics that are of interest to me evolving around 
-  data science (in a broad sense), management and mental health. 
-  I hope you like some of my content. Comments and suggestions are warmly welcomed.
+  This blog is, well, about "gaps" and "minds". We wanna mind the gaps, even though things often get mixed up. Some gaps I'll refer to in this blog will be about gaps between the source data and our conclusions or gaps between our values and how we act.
 show_outro: true
 outro: |
   Gap the mind <i class="far fa-heart"></i>
