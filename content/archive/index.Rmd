@@ -1,0 +1,83 @@
+---
+title: "Archive"
+subtitle: "A timeline of posts for convenient browsing"
+excerpt: "testing the excerpt field"
+date: 2021-12-23
+author: "Thomas Lieb"
+draft: false
+layout: single
+url: archive
+slug: archive
+---
+
+You can check posts also by [tags](../tags) or [categories](../categories)
+
+```{r include=FALSE}
+source("../../R/functions.R")
+require(tidyverse)
+require(lubridate)
+
+# get yamls (temporarily switch wd to access them correctly)
+wd <- getwd()
+setwd("../../")
+all_yaml <- scan_yaml()
+wd <- getwd()
+
+# extract blog yamls
+blog_yamls <- all_yaml[
+  names(all_yaml) %>% str_detect("content/blog/.*/index.md")]
+# remove drafts
+blog_yamls <- blog_yamls[map(blog_yamls, ~ !.x$draft) %>% unlist()]
+if (length(blog_yamls) > 0) {
+  # order by date
+  blog_yamls <-
+    blog_yamls[map(blog_yamls, ~ .x$date) %>% unlist() %>% order()]
+  # extract the needed data
+  blog_yamls <- blog_yamls %>% imap( ~ list(
+    title = .x$title,
+    year = year(.x$date),
+    month = month(.x$date, label = TRUE, abbr = FALSE),
+    link = str_extract(.y, "(?<=content/).*(?=index\\.md)")
+  ))
+  # generate data frame
+  df <- reduce(blog_yamls, bind_rows, .init = data.frame()) %>%
+    mutate(text = glue::glue("[{title}](../{link})")) %>%
+    select(year, month, text) %>%
+    arrange(desc(year), desc(month), text)
+  # make ready for printing
+  df <- df %>%
+    remove_cons_duplicates("year") %>%
+    remove_cons_duplicates("month")
+} else {
+  df <- data.frame()
+}
+```
+
+
+<div align = "left"> <!--Wrap in div to not apply Hugo table layout.-->
+```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+require("knitr")
+require("kableExtra")
+require("tidyverse")
+require("magrittr")
+options(knitr.kable.NA = '')
+
+scss_custom <- readLines("../../assets/mysky-hex.scss")
+color <- scss_custom[scss_custom %>% str_detect("headingColorCustom")] %>% 
+  str_extract("(?<=headingColorCustom: )#[:alnum:]*(?=;)")
+
+if (nrow(df) > 0) {
+  knitr::kable(df, col.names = NULL, table.envir = "mytable") %>% 
+    kable_minimal(full_width = F, position = "left") %>% 
+    column_spec(1, width = "7rem", bold = TRUE, color = color,
+                extra_css = "font-size: 3rem; vertical-align: text-bottom;") %>% 
+    column_spec(2, width = "7rem", bold = TRUE, 
+                extra_css = "vertical-align: text-bottom;") %>% 
+    column_spec(3, extra_css = "vertical-align: text-bottom;padding: 0 0 7px 0;")
+} else {
+  cat(":sob: *currently no blog posts available* :sob:")
+}
+```
+</div>
+
+

@@ -3,10 +3,10 @@
 text_align_right: false
 show_title_as_headline: false
 headline: |
-  Hi, my name is Hugo Apéro. Nice to meet you.
+  Hi, my name is Thomas. Good to have you here.
 ---
 
 <!-- this is a subheadline -->
-I'm a Hugo theme you'll want to hang out with. :fr: 
+I'm an Austrian :flag-at: living in Ireland :flag-ie:. Professionally, I'm a mathematician working in Business Intelligence at [Indeed.com](https://indeed.com/). This blog is an experiment where I'll write about topics of interest to me. At least for a start, these will evolve around data analytics, R, management and mental health.
 
-The page you are reading is based on a markdown file- look in `content/about/` to edit. There, look inside the `header`, `main`, and `sidebar` folders to get started building your own "about" page.
+Also good to mention: I'm a big fan of the [R programming language](https://cran.r-project.org/). Therefore, this site is built with the R package [blogdown](https://pkgs.rstudio.com/blogdown/)).

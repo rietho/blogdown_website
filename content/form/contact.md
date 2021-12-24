@@ -1,12 +1,12 @@
 ---
-date: "2019-02-25T13:38:41-06:00"
-description: This template has a **contact-us** form built right in. All you need
-  to do is add a valid recipient form-id to the front matter of this form page and
-  you're ready to receive submissions.
+date: "2021-13-17"
+description: I'm happy to chat. Feel free
+  to comment on my posts, contact me on social mediaa, mail me on 
+  gapthemindblog@gmail.com or use the form right here.
 draft: false
-formspree_form_id: id-from-formspree
+formspree_form_id: xjvlvqpl
 layout: split-right
-name: Contact Us Form
+name: Contact Me Form
 show_poweredby_formspree: true
 show_social_links: true
 submit_button_label: Send Message
