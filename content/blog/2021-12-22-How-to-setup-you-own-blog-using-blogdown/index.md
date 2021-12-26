@@ -33,7 +33,24 @@ Moreover, I regularly came across pormissing projects to make website building e
 
 ## How to get started
 
-To get started with 
+To get started with your own blog, you need to make a bunch of decisions. Ideally, first you get an understanding of why you want to create a blog. This will be a useful guide throughout the whole process.
+
+### Create your own blog?
+
+You do not actually need to create your own blog in order to blog. There are a bunch of sites where you can sign up and use existing infrastructure to blog. For example TBD
+
+For me building the blog itself was part of the motivation, so I went that route. There are lots of different tools out there. A lot of them use simple drag and drop UIs. Many of them can be used for free, but with limited features only. But you can create them programatically as well with many existing packages to automate a bunch of steps. I wanted to do something with R. There the most popular packages seemed [blogdown]() and [distill](). Both are quite similar, while blogdown seems to give you more freedown in tweaking the website while distill seems to have a higher level of automation and thus esier to use.
+
+TBD: blogdown vs. distill
+
+TBD: Wordpress?, add other examples above
+
+### Getting started with blogdown
+
+Blogdown has very handy [bookdown website](TBD) explaining pretty much everything you'll need to know. Blogdown creates a static website for you using the popular static site generator Hugo. 
+
+After reading about blogdown, the first action you're encouraged to take is to decide on a theme. The theme will largely determine the look and feel of your site along with which features will be at your disposal. You can explore a lot of themes at https://themes.gohugo.io/. I personally went for the Hugo Apéro theme ([Github](https://github.com/apreshill/apero), [demo site](https://hugo-apero.netlify.app/)) which was built by [Alison Presmanes Hill](https://www.apreshill.com/) and other contributors evolving afaik around the R community. I did so because I liked the modern look and feel and as it was coming with a bunch of useful features like many customisation options.
+
 
 ## Wanna use your own domain?
 
