@@ -1,12 +1,12 @@
 ---
-title: "How I Set Up This Blog"
-subtitle: "A short tutorial using blogdown"
+title: "Setting up this blog using blogdown"
+subtitle: "A simple path for R users to a beatiful website"
 excerpt: ""
 date: 2021-12-22T18:31:50+01:00
 author: "Thomas Lieb"
 draft: true
 series:
-tags: [r, blog]
+tags: [r, blog, blogdown, hugo]
 categories:
 layout: single # single or single-sidebar
 ---
