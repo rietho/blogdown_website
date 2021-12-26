@@ -11,11 +11,6 @@ categories:
 layout: single # single or single-sidebar
 ---
 
-Content:
-
--   blogdown
--   Hugo Apéro theme
-
 **TLDR**: This is a brief overview on how you can also build your own blog. I'll mostly share my own story, but also point out some alternatives. The rebuild what I did, you could simply follow [this guide](https://hugo-apero-docs.netlify.app/start/).
 
 ## Motivation
@@ -45,13 +40,24 @@ TBD: blogdown vs. distill
 
 TBD: Wordpress?, add other examples above
 
-### Getting started with blogdown
+## Using blogdown
 
 Blogdown has very handy [bookdown website](TBD) explaining pretty much everything you'll need to know. Blogdown creates a static website for you using the popular static site generator Hugo. 
 
 After reading about blogdown, the first action you're encouraged to take is to decide on a theme. The theme will largely determine the look and feel of your site along with which features will be at your disposal. You can explore a lot of themes at https://themes.gohugo.io/. I personally went for the Hugo Apéro theme ([Github](https://github.com/apreshill/apero), [demo site](https://hugo-apero.netlify.app/)) which was built by [Alison Presmanes Hill](https://www.apreshill.com/) and other contributors evolving afaik around the R community. I did so because I liked the modern look and feel and as it was coming with a bunch of useful features like many customisation options.
 
+After you picked a theme, you can follow [the recommended workflow](https://bookdown.org/yihui/blogdown/workflow.html) to create your website, push it to Github and even deploy it on Netlify.
 
-## Wanna use your own domain?
+It's also worth mentioning that the Hugo Apéro documentation has a great step by step tutorial to get your site up and running. Even though the tutorial is specific to the Hugo Apéro theme, it's pretty straightfoward to apply it to any theme.
+
+## Some specifics
+
+* Commenting
+* Taxonomy specific sites (tags / categories / series)
+* Archive
+* Use your own domain
+
+
+### Wanna use your own domain?
 
 I was using Cloudflare to buy my domain. Cloudflare and Netlify need to be configured to work alongside each other. [Here](https://jaketrent.com/post/cloudflare-dns-netlify-host)'s a nice blog illustrating the steps.
