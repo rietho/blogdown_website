@@ -42,7 +42,7 @@ TBD: Wordpress?, add other examples above
 
 ## Using blogdown
 
-Blogdown has very handy [bookdown website](TBD) explaining pretty much everything you'll need to know. Blogdown creates a static website for you using the popular static site generator Hugo. 
+Blogdown has very handy [website](https://bookdown.org/yihui/blogdown/) explaining pretty much everything you'll need to know. Blogdown creates a static website for you using the popular static site generator Hugo.
 
 After reading about blogdown, the first action you're encouraged to take is to decide on a theme. The theme will largely determine the look and feel of your site along with which features will be at your disposal. You can explore a lot of themes at https://themes.gohugo.io/. I personally went for the Hugo Apéro theme ([Github](https://github.com/apreshill/apero), [demo site](https://hugo-apero.netlify.app/)) which was built by [Alison Presmanes Hill](https://www.apreshill.com/) and other contributors evolving afaik around the R community. I did so because I liked the modern look and feel and as it was coming with a bunch of useful features like many customisation options.
 
@@ -50,12 +50,25 @@ After you picked a theme, you can follow [the recommended workflow](https://book
 
 It's also worth mentioning that the Hugo Apéro documentation has a great step by step tutorial to get your site up and running. Even though the tutorial is specific to the Hugo Apéro theme, it's pretty straightfoward to apply it to any theme.
 
-## Some specifics
+## Further customisations
 
-* Commenting
-* Taxonomy specific sites (tags / categories / series)
-* Archive
-* Use your own domain
+Following above guide, you're pretty much done with creating your own beautiful blog. So, you'd be ready to create content. However, there are many ways you can customise your blog. Here, I wanna point out some aspects where I needed further research to find out.
+
+### Commenting
+
+You may want to enable readers of your blog to comment on your posts. Many themes, including the Apéro theme, have commenting features built in. That is, using third party tools to be embeded in your blog. The Apéro theme allows for comments using [Utterances](https://utteranc.es/) or [Disqus](https://disqus.com/).
+
+* **Utterances** is lightweight, completely free and uses Github issues in the background. For commenting a Github account is needed. So it seems ideal if you can expect the majority of your readers having a Github account anyway. The Apéro theme has a section `params.utterances` in the *config.toml*-file for configuration.
+* **Disquis** offers commenting with lots of features. However, the free option comes with adds and core features only. I went for Disqus as they offer multiple ways for users to identify themselves. That is popular social media accounts and optionally also guest commenters. If you wanna use Disqus, you need to sign up, create a Disqus-site that represents your blog and set the `disqusShortname` parameter in *config.toml* to the Disqus short name. Don't forget to set `use_utterances` to `false` and you should be good to go.
+
+### Taxonomy overview pages
+
+Taxonomy specific sites (tags / categories / series)
+
+### Archive page
+
+
+### Useing your own domain
 
 
 ### Wanna use your own domain?
