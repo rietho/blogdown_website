@@ -63,12 +63,47 @@ You may want to enable readers of your blog to comment on your posts. Many theme
 
 ### Taxonomy overview pages
 
-Taxonomy specific sites (tags / categories / series)
+There's a bunch of metadata your posts come with. You can also create a taxonomy of your pages via providing tags and categories for your posts. You may even collect posts via a series. For these taxonomies, many themes, including the Apéro theme, (maybe all?) automatically provide an overview page for each taxonomy. You can access them via *<your_base_url>/tag* / *<your_base_url>/categories* / *<your_base_url>/series* (replace *<your_base_url>* with your base url). You can easily link these in your header/fotter. For example I linked the tags overview page in the footer via placing the following under `[menu]` in *config.toml*:
+
+```toml
+  [[menu.footer]]
+    name = "Tags"
+    title = "Tags"
+    url = "/tags/"
+    weight = 4
+```
 
 ### Archive page
 
+I do like the idea of an archive page providing readers a quick and easy chronological overview of all blog posts. Some themes do come with a archive page, but the Apéro theme does not seem to do so. At least I couldn't find it. So, I built one one my own which you are welcome to reuse:
 
-### Useing your own domain
+Here blogdown comes in handy, as I can use R markdown to programatically create content. I created a folder `archive` within the `content` folder and placed an `index.Rmd` file in there. You can find the code of the current live version on Github: [`/content/archive/index.Rmd`](https://github.com/rietho/blogdown_website/blob/main/content/archive/index.Rmd) and [`R/functions.R`](https://github.com/rietho/blogdown_website/blob/main/R/functions.R). In theory you should be able to simplay copy these files as they are. The code is a bit scrappy, but it should work well:
+
+The basic idea is the following:
+
+* extract the yaml section of all pages
+* filter out non-draft blog posts
+* extract the information needed for the archive page: title, link, year, nonth
+* clean up the data frame for being displayed as a table
+* format and display the archive as a table
+
+The R markdown files need to be rendered before deployment. I think that Netlify does not render them for you. In any way, it's easy to do so locally via 
+
+```r
+blogdown::build_site(run_hugo = F, build_rmd = T)
+```
+
+Once the R markdown file is rendered, you can place it for example in your header via:
+
+```toml
+  [[menu.header]]
+    name = "Archive"
+    title = "Archive"
+    url = "/archive/"
+    weight = 4
+```
+
+### Using your own domain
 
 
 ### Wanna use your own domain?
