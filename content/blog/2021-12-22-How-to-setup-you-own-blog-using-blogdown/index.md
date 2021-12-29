@@ -87,7 +87,7 @@ The basic idea is the following:
 * clean up the data frame for being displayed as a table
 * format and display the archive as a table
 
-The R markdown files need to be rendered before deployment. I think that Netlify does not render them for you. In any way, it's easy to do so locally via 
+The R markdown files need to be rendered before deployment. I think that Netlify does not render them for you. In any way, it's easy to do so locally via the following R code:
 
 ```r
 blogdown::build_site(run_hugo = F, build_rmd = T)
@@ -105,7 +105,12 @@ Once the R markdown file is rendered, you can place it for example in your heade
 
 ### Using your own domain
 
+In case you are using Netlify, you end up with a link that looks something like `name-of-your-blog.netlify.app`. That itself may be everything you need. But you may want to have your blog online on a custom domain. Read more about domains [here](https://bookdown.org/yihui/blogdown/domain-name.html). In that case, you need to buy a domain. Depending on the domain, the cost itself starts from around 10$/year. There are a bunch of domain registrars where you can buy them. On choosing one watch out for potential hidden costs you might get charged.
 
-### Wanna use your own domain?
+I was using [Cloudflare] to buy my domain, as the are offering free CNAME flattening. This includes, that my blog can be reahed via https://gapthemind.info (i.e. the `www` can be omitted). Both Cloudflare and Netlify need to be configured to work togehter. It took me a bit to figure out how, but [here](https://jaketrent.com/post/cloudflare-dns-netlify-host)'s a nice blog post illustrating the steps.
 
-I was using Cloudflare to buy my domain. Cloudflare and Netlify need to be configured to work alongside each other. [Here](https://jaketrent.com/post/cloudflare-dns-netlify-host)'s a nice blog illustrating the steps.
+## Summing things up
+
+There are many options how you can create your own blog. With blogdown you have a nice R package at your disposal giving you lot of options how to customise the look and feel of your blog. You can even use R markdown to generate content. In any case, I hope you find this post helpful.
+
+Happy blogging!
