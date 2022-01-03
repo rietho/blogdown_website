@@ -14,14 +14,15 @@ You can check posts also by [tags](../tags) or [categories](../categories)
 
 ```{r include=FALSE}
 source("../../R/functions.R")
+library(conflicted)
 require(tidyverse)
 require(lubridate)
+require(here)
+
+here::i_am("content/archive/index.Rmd")
 
 # get yamls (temporarily switch wd to access them correctly)
-wd <- getwd()
-setwd("../../")
 all_yaml <- scan_yaml()
-wd <- getwd()
 
 # extract blog yamls
 blog_yamls <- all_yaml[

@@ -1,7 +1,7 @@
 baseURL = "https://gapthemind.info/"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Gap the Mind"
+title = "Gap the Mind - A Personal Blog by Thomas Lieb"
 author = "Thomas Lieb"
 copyright = "2021 Thomas Lieb, Dublin, Ireland" # set to override the auto generated copyright using org info and now year
 googleAnalytics = "G-NYMTZXZR2B"
@@ -30,7 +30,7 @@ enableEmoji = true
 [params]
   orgName = "Thomas Lieb"
   orgLocal = "Dublin, Ireland"
-  description = "Gap the Mind Blog"
+  description = "Gap the Mind - A Personal Blog by Thomas Lieb"
   favicon = "/img/favicon.ico"
   logo = "/img/gapthemind-logo-grey.png"
   mainSections = ["home", "about", "blog", "archive"]

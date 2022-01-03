@@ -37,6 +37,7 @@ You do not actually need to create your own blog in order to blog. There are a b
 For me building the blog itself was part of the motivation, so I went that route. There are lots of different tools out there. A lot of them use simple drag and drop UIs. Many of them can be used for free, but with limited features only. But you can create them programatically as well with many existing packages to automate a bunch of steps. I wanted to do something with R. There the most popular packages seemed [blogdown]() and [distill](). Both are quite similar, while blogdown seems to give you more freedown in tweaking the website while distill seems to have a higher level of automation and thus esier to use.
 
 TBD: blogdown vs. distill
+TBD: mention [postcards](https://github.com/seankross/postcards) package
 
 TBD: Wordpress?, add other examples above
 
