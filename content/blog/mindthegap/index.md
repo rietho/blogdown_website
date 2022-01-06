@@ -9,7 +9,7 @@ excerpt: The *Gap the Mind* blog is starting as a blogging experiment.
   are warmly welcomed.
 layout: single
 subtitle: An experiment and a journey to find more about data science, management and mental health.
-title: About the "Gap the Mind" blog
+title: test blog
 ---
 
 Read here my awseome introduction!
