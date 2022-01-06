@@ -1,4 +1,5 @@
 # a file to collect functions across this site
+here::i_am("R/functions.R")
 
 # get function to build archive
 scan_yaml <- getFromNamespace("scan_yaml", "blogdown")
