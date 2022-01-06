@@ -13,15 +13,20 @@ slug: archive
 You can check posts also by [tags](../tags) or [categories](../categories)
 
 ```{r include=FALSE}
-source("../../R/functions.R")
 library(conflicted)
 require(tidyverse)
 require(lubridate)
 require(here)
 
 here::i_am("content/archive/index.Rmd")
+source(here::here("R/functions.R"))
+```
 
+
+```{r include=FALSE}
 # get yamls (temporarily switch wd to access them correctly)
+setwd("../../.")
+getwd()
 all_yaml <- scan_yaml()
 
 # extract blog yamls
