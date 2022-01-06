@@ -15,6 +15,12 @@ layout: single # single or single-sidebar
 
 ## Motivation
 
+<img src="featured.png" alt="How do I create my own blog" width="100%"/>
+
+<p style="color:grey; font-size:0.7em; margin:0;">
+Original photo by <a href="https://unsplash.com/@goumbik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Lukas Blazek</a> on <a href="https://unsplash.com/s/photos/blog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>.
+</p>
+
 You might ask yourself, why create a blog in the first place. Well, it depeneds on your interestes and motivations. Here's a brief intro into my story:
 
 I always thought that it would be a great project to create a blog to write about stuff that is of interest to me. I find it very beneficial for my learning process to write about things of interest to me. It forces me to put a structure around it, how to explain it to others and fill in gaps with research.
@@ -32,14 +38,14 @@ To get started with your own blog, you need to make a bunch of decisions. Ideall
 
 ### Create your own blog?
 
-You do not actually need to create your own blog in order to blog. There are a bunch of sites where you can sign up and use existing infrastructure to blog. For example TBD
+You do not actually need to create your own blog in order to blog. There are a bunch of sites where you can sign up and use existing infrastructure to blog.
 
-For me building the blog itself was part of the motivation, so I went that route. There are lots of different tools out there. A lot of them use simple drag and drop UIs. Many of them can be used for free, but with limited features only. But you can create them programatically as well with many existing packages to automate a bunch of steps. I wanted to do something with R. There the most popular packages seemed [blogdown]() and [distill](). Both are quite similar, while blogdown seems to give you more freedown in tweaking the website while distill seems to have a higher level of automation and thus esier to use.
+For me building the blog itself was part of the motivation, so I went that route. There are lots of different tools out there. A lot of them use simple drag and drop UIs. Many of them can be used for free, but with limited features only. But you can create them programatically as well with many existing packages to automate a bunch of steps. I wanted to do something with R. There the most popular packages seemed [blogdown]() and [distill](). Both are quite similar, while blogdown seems to give you more freedown in tweaking the website while distill seems to have a higher level of automation and thus esier to use. @WeAreRLadies provides a quick comparison:
 
-TBD: blogdown vs. distill
-TBD: mention [postcards](https://github.com/seankross/postcards) package
+{{< tweet 1363144545677017089 >}}
 
-TBD: Wordpress?, add other examples above
+It's also worth mentioning another R package: The [postcards](https://github.com/seankross/postcards) provides an easy way to create a simple, but beaitful landing page.
+
 
 ## Using blogdown
 
@@ -62,7 +68,7 @@ You may want to enable readers of your blog to comment on your posts. Many theme
 * **Utterances** is lightweight, completely free and uses Github issues in the background. For commenting a Github account is needed. So it seems ideal if you can expect the majority of your readers having a Github account anyway. The Apéro theme has a section `params.utterances` in the *config.toml*-file for configuration.
 * **Disquis** offers commenting with lots of features. However, the free option comes with adds and core features only. I went for Disqus as they offer multiple ways for users to identify themselves. That is popular social media accounts and optionally also guest commenters. If you wanna use Disqus, you need to sign up, create a Disqus-site that represents your blog and set the `disqusShortname` parameter in *config.toml* to the Disqus short name. Don't forget to set `use_utterances` to `false` and you should be good to go.
 
-### Taxonomy overview pages
+### Overview pages
 
 There's a bunch of metadata your posts come with. You can also create a taxonomy of your pages via providing tags and categories for your posts. You may even collect posts via a series. For these taxonomies, many themes, including the Apéro theme, (maybe all?) automatically provide an overview page for each taxonomy. You can access them via *<your_base_url>/tag* / *<your_base_url>/categories* / *<your_base_url>/series* (replace *<your_base_url>* with your base url). You can easily link these in your header/fotter. For example I linked the tags overview page in the footer via placing the following under `[menu]` in *config.toml*:
 
@@ -103,6 +109,10 @@ Once the R markdown file is rendered, you can place it for example in your heade
     url = "/archive/"
     weight = 4
 ```
+
+Here's an example screenshot of an Archive page:
+
+<img src="screenshot_archive.png" alt="Archive Page Screenshot" width="98%" style="border: 5px solid white;"/>
 
 ### Using your own domain
 
