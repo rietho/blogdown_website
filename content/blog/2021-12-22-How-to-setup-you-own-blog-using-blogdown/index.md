@@ -1,5 +1,5 @@
 ---
-title: "How to setup your own blog (using blogdown)"
+title: "How to setup your own blog (using R and blogdown)"
 subtitle: "A simple path (for R users) to a beautiful website"
 excerpt: "This is a brief overview on how you can also build your own blog. I'll mostly share my own story, but also point out some alternatives. The rebuild what I did, you could simply follow [this guide](https://hugo-apero-docs.netlify.app/start/)"
 date: 2022-01-01
@@ -9,6 +9,7 @@ series:
 tags: [r, blog, blogdown, hugo]
 categories:
 layout: single # single or single-sidebar
+slug: how-to-set-up-your-own-blog-using-R-and-blogdown
 ---
 
 **TLDR**: This is a brief overview on how you can also build your own blog. I'll mostly share my own story, but also point out some alternatives. The rebuild what I did, you could simply follow [this guide](https://hugo-apero-docs.netlify.app/start/).
