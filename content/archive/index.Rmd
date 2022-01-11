@@ -26,7 +26,6 @@ source(here::here("R/functions.R"))
 ```{r include=FALSE}
 # get yamls (temporarily switch wd to access them correctly)
 setwd("../../.")
-getwd()
 all_yaml <- scan_yaml()
 
 # extract blog yamls
@@ -43,11 +42,21 @@ if (length(blog_yamls) > 0) {
     title = .x$title,
     year = year(.x$date),
     month = month(.x$date, label = TRUE, abbr = FALSE),
-    link = str_extract(.y, "(?<=content/).*(?=index\\.md)")
+    link = dplyr::if_else(
+      is.null(.x$slug),
+      str_extract(.y, "(?<=content/).*(?=index\\.md)"),
+      paste0( # this parts needs to be adjusted if the permalink is adjusted
+        "/blog/",
+        year(.x$date), "/",
+        stringr::str_pad(month(.x$date), 2, "left", 0), "/",
+        stringr::str_pad(day(.x$date), 2, "left", 0), "/",
+        stringr::str_to_lower(.x$slug), 
+        "/")
+      )
   ))
   # generate data frame
   df <- reduce(blog_yamls, bind_rows, .init = data.frame()) %>%
-    mutate(text = glue::glue("[{title}](../{link})")) %>%
+    mutate(text = glue::glue("[{title}]({link})")) %>%
     select(year, month, text) %>%
     arrange(desc(year), desc(month), text)
   # make ready for printing
