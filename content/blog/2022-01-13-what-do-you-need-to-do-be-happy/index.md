@@ -29,7 +29,7 @@ Ideas:
   * Involves doing and needs training.
 * Does all of above make sense?
   * Maybe, maybe not
-  * Experiencing it for yourself is critical in my experience. 
+  * Experiencing it for yourself is critical in my experience. I tried to make sense and thought I could, but that did not change anything. Contrary, it made me maybe even unhappier because it did not make me happier^^. It's about experience not making sense.
 
 
 TLDR: In the western world we define ourselves and others through what we achieve and what we have. We pursue goeals to achieve happiness which is always temporary. A contrary and somewhat idea is that we can achieve happiness and contentment simply via being. This post follows this idea to explore if and how it might actually help us being happy.
