@@ -7,8 +7,11 @@ author: "Thomas Lieb"
 draft: false
 series:
 tags:
-  - blog
+  - Blog
 categories:
+  - Management
+  - Data Analytics
+  - Mental Health
 layout: single # single or single-sidebar
 slug: about-the-gap-the-mind-blog
 ---
@@ -50,22 +53,28 @@ There are a 6 great reasons why the name of this blog is "Gap the Mind". These r
 
 To summarize, why I chose this blog name:
 
-<div style="width:66%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/9G3xuelhlGbiyVocla" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+<div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/9G3xuelhlGbiyVocla" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 <p style="color:grey; font-size:0.7em; margin:0;"><a href="https://giphy.com/gifs/love-happy-yes-9G3xuelhlGbiyVocla">via GIPHY</a></p>
 
-## How we might wanna <i>gap the mind</i> in the 3 main topics I intend to write about
+## Where we might wanna <i>gap the mind</i> in the 3 main topics I intend to write about
 
 Now that you all know why I named this blog *Gap the Mind*, I wanna shed some light on how the name relates to the topics I wanna blog about.
 
 ### Data Analytics
 
-Let's say we have data on a million songs. When analysing such data we typically want some sort of summary to give us insights. For example we could look at average daily number of people listening to a song. Or we could cluster the songs into groups of similar songs. We could also build a model telling us for a new person which songs they might like most. All these cases give us a certain summary of the data revealing some insight. And in all these cases there are many gaps. For example there is a gap between the average daily number of people listening to a song and how many people actually listen to a specific song. Or there's a gap between what a model says a new person might like and what they'll actually like. Often these gaps are quantified by variation, but even then there's a gap between how we quantify the gap and the actual gap. 
+Let's say we have data on songs. When analysing such data we typically want some sort of summary to give us insights. 
+
+* For example we could look at average daily number of people listening to a song. 
+* Or we could cluster the songs into groups of similar songs. 
+* We could also build a model telling us for a new person which songs they might like most.
+
+All these cases give us a certain summary of the data revealing some insight. And in all these cases there are many gaps. For example there is a gap between the average daily number of people listening to a song and how many people actually listen to a specific song. Or there's a gap between what a model says a new person might like and what they'll actually like. Often these gaps are quantified by variation, but even then there's a gap between how we quantify the gap and the actual gap. 
 
 So, we wanna be mindful of these gaps. That is to not draw any wrong conclusions. When the daily average number of listeners is a 100, we could expect for a new song on average 100 listeners per day. But we wanna be mindful that with some probability it might actually much lowr or much higher.
 
 And when analysing data, we do not just want to be mindful about the gao between our summary and what happens in reality. We also wanna watch out for how people interpret our data vs. which interpretation is actually feasible. That is, there are often quite some gaps between the ideas people have in their mind and the actual data. In some sense, a "gap in the mind".
 
-All of that is a long way of saying, in data analytics there are many gaps and many minds involved and way too often things get mixed up.
+All of that is a long way of saying, even though data analytics is often seen purely technical, there are many gaps and a lot happens in peoples minds. And way too often things get mixed up.
 
 ### Management
 
@@ -75,4 +84,19 @@ So many gaps to mind. And many gaps to bridge from the managers mind.
 
 ### Mental health
 
+In mental health, our mind obviously play a central role. And there are many gaps. A big gap is that we'd all like to be mentally healthy, but still [according to the WHO](https://www.who.int/health-topics/mental-health#tab=tab_2) "20% of the world’s children and adolescents have a mental health condition".
 
+Mental health is a serious and complex topic. While a lot of research is done, it is my understanding that there's a lot we still don't know. I feel more and more people talk about mental health along with their personal experience. But despite that it is still widely disregarded and comes with shame. Thus, quite a gap between where I'd hope we as a society will be and where we are today. Hopefully, I can help to narrow this gap if only a tiny bit.
+
+I do also think there are many gaps to bridge from what we have in our mind and what actually happens:
+
+* We might think that mental health is nothing we need to worry about for ourselves. But nobody is immune to having mental health problems. Just think that anyone can experiene difficult life situations.
+* There are often gaps between how we think something will make us feel and how we then actually feel. For example, when I worked on a stressful project, I thought that it would be so relaxing and that I would be so happy once the project was done. Those feelings where definitely there, but not as intense as I thought and certinaly not as long lasting as I wished.
+* For many people there is a gap between what we expect from ourselves or what we think others expect from us and how we feel to measure up to these expectations.
+* There are easily gaps between how we want to feel and how we actually feel. For example you might not want to feel anxious, stressed, depressed, scared or like an imposter. However, many if not all of us feel that way at least sometimes.
+
+## And now?
+
+Now, I hope that you have an idea where the name of this blog is coming from and what kind of topic I envision to write about.
+
+If you have any topics you'd love to see me write about, please let me know in a comment below.

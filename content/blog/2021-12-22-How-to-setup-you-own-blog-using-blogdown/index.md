@@ -8,6 +8,7 @@ draft: false
 series:
 tags: [r, blog, blogdown, hugo]
 categories:
+  - Data Analytics
 layout: single # single or single-sidebar
 slug: how-to-set-up-your-own-blog-using-R-and-blogdown
 ---

@@ -7,11 +7,12 @@ author: "Thomas Lieb"
 draft: true
 series:
 tags:
-  - mindfulness
-  - happiness
-  - meditation
+  - Mindfulness
+  - Happiness
+  - Meditation
 categories: 
-  - mindfulness
+  - Mindfulness
+  - Mental Health
 layout: single # single or single-sidebar
 slug: what-do-you-need-to-do-to-be-happy-nothing-except-to-be/
 ---
