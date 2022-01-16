@@ -37,22 +37,25 @@ if (length(blog_yamls) > 0) {
   # order by date
   blog_yamls <-
     blog_yamls[map(blog_yamls, ~ .x$date) %>% unlist() %>% order()]
+  # check if all needed data is present
+  # adjust if permalink changes
+  blog_yamls %>% imap(
+    ~ if (is.null(.x$title) | is.null(.x$date) | is.null(.x$slug)) {
+      stop(glue::glue("file '{.y}' is missing one of title, date or slug!"))
+    })
   # extract the needed data
   blog_yamls <- blog_yamls %>% imap( ~ list(
     title = .x$title,
     year = year(.x$date),
     month = month(.x$date, label = TRUE, abbr = FALSE),
-    link = dplyr::if_else(
-      is.null(.x$slug),
-      str_extract(.y, "(?<=content/).*(?=index\\.md)"),
-      paste0( # this parts needs to be adjusted if the permalink is adjusted
+    link = 
+      paste0( # adjust if permalink changes
         "/blog/",
         year(.x$date), "/",
         stringr::str_pad(month(.x$date), 2, "left", 0), "/",
         stringr::str_pad(day(.x$date), 2, "left", 0), "/",
         stringr::str_to_lower(.x$slug), 
         "/")
-      )
   ))
   # generate data frame
   df <- reduce(blog_yamls, bind_rows, .init = data.frame()) %>%
