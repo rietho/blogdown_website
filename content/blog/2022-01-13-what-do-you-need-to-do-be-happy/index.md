@@ -1,6 +1,6 @@
 ---
 title: "What Do You Need to Do to Be Happy? Nothing, Except to Be!"
-subtitle: "A radical idea that might work"
+subtitle: "A bold idea that might actually have some truth to it"
 excerpt: " In the western world we define ourselves and others through what we achieve and what we have. We pursue goeals to achieve happiness which is always temporary. A contrary and somewhat idea is that we can achieve happiness and contentment simply via being. This post follows this idea to explore if and how it might actually help us being happy."
 date: 2022-01-13
 author: "Thomas Lieb"
@@ -19,6 +19,8 @@ slug: what-do-you-need-to-do-to-be-happy-nothing-except-to-be/
 
 Ideas:
 
+* I'm sceptical
+* A thought experiment and seeing what to take away from it
 * Radical and maybe seemingly counterituitive idea. But stay with me ...
 * Simple explanation of idea: Happiness coming from being you right here right now. That is with everything you sense everything you feel, even if some of it is unpleasant. Just being and having nothing to do.
 * Why happiness from doing is far from ideal
@@ -43,8 +45,7 @@ Ideas:
   * Experiencing it for yourself is critical in my experience. I tried to make sense and thought I could, but that did not change anything. Contrary, it made me maybe even unhappier because it did not make me happier^^. It's about experience not making sense.
   * full happiness and contentment likely illusionary for all of us. but what if it helps you to be just let's say 10% happier (mention book)? What if your felt self worth depends just a little less on your job
 
-
-TLDR: In the western world we define ourselves and others through what we achieve and what we have. We pursue goeals to achieve happiness which is always temporary. A contrary and somewhat idea is that we can achieve happiness and contentment simply via being. This post follows this idea to explore if and how it might actually help us being happy.
+**TLDR**: {{< param excerpt >}}
 
 ## Motivation
 
