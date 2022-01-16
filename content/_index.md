@@ -10,7 +10,7 @@ images:
 - img/gapthemind-logo-grey.png
 show_action_link: true
 show_social_links: true
-subtitle: An personal blog by Thomas Lieb
+subtitle: A personal blog by Thomas Lieb
 text_align_left: true
 title: Gap the Mind
 type: home
