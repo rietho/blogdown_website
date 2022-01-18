@@ -50,6 +50,9 @@ Ideas:
 ## Motivation
 
 <img src="being-happy-featured.png" alt="Photo of me, Thomas, with a forest, lawn and path in the background under blue sky. A speechbuble saying: 'Here I am! And now I'm happy?'" width="100%"/>
+<p style="color:grey; font-size:0.7em; margin:0;">
+Original photo by Thomas Lieb. Made in Styria, Austria
+</p>
 
 The photo shows me, as far as I can remember, actually feelkng very happy. And that is despite the time of the photo was taken being a quite difficult one. 
 
