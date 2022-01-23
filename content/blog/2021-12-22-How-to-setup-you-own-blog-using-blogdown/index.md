@@ -1,12 +1,12 @@
 ---
 title: "How to setup your own blog (using R and blogdown)"
 subtitle: "A guide (for R users) to a beautiful blog"
-excerpt: "This post is a brief overview on how you can build your own blog. I'll mostly share my own experience based on the R package blogdown."
+excerpt: "This post is a brief overview on how you can build your own blog. I share my own experience based on the R package blogdown."
 date: 2022-01-01
 author: "Thomas Lieb"
 draft: false
 series:
-tags: [r, blog, blogdown, hugo]
+tags: [r, blog, blogdown, hugo-website-framework]
 categories:
   - Data Analytics
 layout: single # single or single-sidebar
@@ -24,27 +24,32 @@ Original photo by <a href="https://unsplash.com/@goumbik?utm_source=unsplash&utm
 
 You might ask yourself, why create a blog in the first place? Well, it depends on your interests and motivations. Here's a brief intro into my story:
 
-I always thought that it would be a great project to create a blog to write about stuff that is of interest to me. I find it very beneficial for my learning and thought process to write about things of interest to me. It forces me to put a structure around it, think how to explain it to others and fill in gaps.
+I always thought that it would be a great project to create a blog to write about topics I am passionate about and want to share with other people. I find it very beneficial for my learning and thought process to write about topics of interest to me. It forces me to put a structure around it, think how to explain it to others and fill in gaps.
 
 Moreover, I regularly came across interesting projects to make website building easy and fun. That is most importantly the R package [blogdown](https://bookdown.org/yihui/blogdown/). To me, creating a blog using blogdown comes with a bunch of benefits:
 
--   Create a blog powered -- amongst others -- by R. That is, I can use my favourite IDE [Rstudio](https://www.rstudio.com/), I can integrate R code in my blog and I can benefit from the supportive R community.
+-   Create a blog powered -- amongst others -- by R. That is, I can use my favourite [IDE (Integrated Development Environment)](https://en.wikipedia.org/wiki/Integrated_development_environment) [Rstudio](https://www.rstudio.com/), I can integrate R code in my blog and I can benefit from the supportive R community.
 -   Use git version control with all it's advantages like branching along with free hosting of all my code on [Github](https://github.com/rietho/blogdown_website).
--   Benefit from all the tooling blogdown is powered by like [Hugo](https://gohugo.io/) as well as tools this allows me to connect to like [Netlify](https://www.netlify.com/).
+-   Benefit from all the tooling blogdown is powered by, such as the static website generator [Hugo](https://gohugo.io/) as well as tools like [Netlify](https://www.netlify.com/) for publishing.
 
 
 ## How to get started
 
-To get started with your own blog, you need to make some decisions to establish which route to go with. Ideally, first you get an understanding of why you want to create a blog. This will be a useful guide throughout the whole process.
+To get started with your own blog, you need to make some decisions to establish which path to go with. Ideally, first you get an understanding of why you want to create a blog and your vision for it. This will be a useful guide throughout the entire process.
 
 ### Create your own blog?
 
-You do not actually need to create your own blog in order to blog. There are a bunch of free sites where you can sign up and use existing infrastructure to blog. A bunch of sites are focusing on certain topic areas comming with the benfit of an already existing community.
+#### Non-technical route
+
+You do not actually need to create your own blog in order to blog. There are many free sites where you can sign up and use existing infrastructure to blog. Several sites are focusing on specific topic areas coming with the benefit of an already existing community. And many of these sites require little to no technical knowledge. Thus, pretty much everyone with internet access can start blogging today. Here's one of many [overviews of blogging websites](https://www.techradar.com/news/the-best-free-blogging-sites).
+
+I myself for example created a [blog in 2011 about my semester abroad in San diego, CA, USA](http://tratsd.blogspot.com/). I wanted something with minimal effort, so I went with Blogspot, which got rebranded [Blogger](https://www.blogger.com/). And no worries, blogs created today with Blogger look way better than my "ancient" blog from 2011.
+
+#### Technical route
 
 For me building the blog itself was part of the motivation, so I went that route. There are lots of different tools out there. A lot of them use simple drag and drop UIs. Many of them can be used for free, but with limited features only. But you can create them programmatically like using one of the various existing packages to automate a bunch of the steps involved. I wanted to do something with R. Given that, the most popular packages seemed [blogdown](https://bookdown.org/yihui/blogdown/) and [distill](https://rstudio.github.io/distill/). Both are quite similar, while blogdown seems to give you more freedom in tweaking the website while distill seems to have a higher level of automation and thus easier to use. @WeAreRLadies tweeted a quick comparison:
 
 {{< tweet 1363144545677017089 >}}
-
 
 ## Using blogdown
 
@@ -66,8 +71,10 @@ Following above guide, you're pretty much done with creating your own beautiful 
 
 You may want to enable readers of your blog to comment on your posts. Many themes, including the Apéro theme, have commenting features built in. That is, using third party tools to be embedded in your blog. The Apéro theme allows for comments using [Utterances](https://utteranc.es/) or [Disqus](https://disqus.com/).
 
-* **Utterances** is lightweight, completely free and uses Github issues in the background. For commenting a Github account is needed. So it seems ideal if you can expect the majority of your readers having a Github account anyway. The Apéro theme has a section `params.utterances` in the *config.toml*-file for configuration.
-* **Disquis** offers commenting with lots of features. However, the free option comes with adds and core features only. I went for Disqus as they offer multiple ways for users to identify themselves. That is popular social media accounts and optionally also unregistered guest commenters. If you want to use Disqus, you need to sign up, create a Disqus-site that represents your blog and set the `disqusShortname` parameter in *config.toml* to the Disqus short name. Don't forget to set `use_utterances` to `false` and you should be good to go.
+* **[Utterances](https://utteranc.es/)** is lightweight, completely free and uses Github issues in the background. For commenting a Github account is needed. So it seems ideal if you can expect the majority of your readers having a Github account anyway. But even if not, creating a Github account is free. The Apéro theme has a section `params.utterances` in the *config.toml*-file for configuration.
+* **[Disqus](https://disqus.com/)** offers commenting with lots of features. However, the free option comes with adds and core features only. One of the positives is that they offer multiple ways for users to identify themselves. That is popular social media accounts and optionally also unregistered guest commenters. If you want to use Disqus, you need to sign up, create a Disqus-site that represents your blog and set the `disqusShortname` parameter in *config.toml* to the Disqus short name. Don't forget to set `use_utterances` to `false` and you should be good to go.
+
+I personally wanted to start with Disqus as I expect to have a significant number of my readers not to have a Github account. However, I found the ads that come with Disqus to be of low quality which I did not want to have on my blog. [According to Disqus](https://help.disqus.com/en/articles/1717307-subscription-payments-faq) advertising is optional for "personal blogs, .edu sites, and non-profits". However, even after some googling I could not find how to make use of that policy. Thus, I went with Utterances.
 
 ### Overview pages
 

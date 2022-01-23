@@ -15,7 +15,7 @@ layout: single # single or single-sidebar
 
 <img src="featured-mindfulness.png" alt="Photo of sheep on wide meadow with hilly graslands in the background. A speechbuble saying: 'Mindfulness? Would you mind explaning?'" width="100%"/>
 <p style="color:grey; font-size:0.7em; margin:0;">
-Original photo by Thomas Lieb. Made on the beautiful <a href="https://www.dublinmountains.ie/dublin_mountains_way/dublin_mountains_way/" target="_blank">Dublin Mountains</a>
+Original photo by Thomas Lieb. Shot on the beautiful <a href="https://www.dublinmountains.ie/dublin_mountains_way/dublin_mountains_way/" target="_blank">Dublin Mountains Way</a>
 </p>
 
 Ideas
