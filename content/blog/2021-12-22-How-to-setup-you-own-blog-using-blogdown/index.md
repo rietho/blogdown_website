@@ -55,30 +55,31 @@ For me building the blog itself was part of the motivation, so I went that route
 
 Blogdown comes with a very handy [website](https://bookdown.org/yihui/blogdown/) explaining pretty much everything you’ll need to know. Blogdown creates a static website for you using the popular static site generator Hugo. Static websites deliver the website to the user as it is stored on the server. Thus, every user sees the same content. See [Wikipedia](https://en.wikipedia.org/wiki/Static_web_page) for more info.
 
-After reading about blogdown, the first action you're encouraged to take is to decide on a theme. The theme will largely determine the look and feel of your site along with which features will be to your disposal. You can explore a lot of themes at https://themes.gohugo.io/. I personally went for the Hugo Apéro theme ([Github](https://github.com/apreshill/apero), [demo site](https://hugo-apero.netlify.app/), [docs](https://hugo-apero-docs.netlify.app/start/)) which was built by [Alison Presmanes Hill](https://www.apreshill.com/) and other contributors evolving afaik around the R community. I did so because I liked the modern look and feel and as it was coming with a bunch of useful features like customisation options or commenting.
+After reading about blogdown, the first action you’re encouraged to take is to decide on a theme. The theme will largely determine the look and feel of your site along with which features will be to your disposal. You can explore a lot of themes at https://themes.gohugo.io/. I personally went for the Hugo Apéro theme ([Github](https://github.com/apreshill/apero), [demo site](https://hugo-apero.netlify.app/), [docs](https://hugo-apero-docs.netlify.app/start/)) which was built by [Alison Presmanes Hill](https://www.apreshill.com/) and several other contributors. I did so because I liked the modern look and feel and as it is coming with several useful features like customisation options or commenting.
 
 After you pick a theme, you can follow [the recommended workflow](https://bookdown.org/yihui/blogdown/workflow.html) to create your website, push it to Github and even deploy it on Netlify.
 
-It's also worth mentioning that the Hugo Apéro documentation has a great [step by step tutorial](https://hugo-apero-docs.netlify.app/start/) to get your site up and running. Even though the tutorial is specific to the Hugo Apéro theme, I think it's pretty straightforward to apply to any Hugo theme.
+It’s also worth mentioning that the Hugo Apéro documentation has a great [step by step tutorial](https://hugo-apero-docs.netlify.app/start/) to get your blog up and running. Even though the tutorial is specific to the Hugo Apéro theme, I think it’s pretty straightforward to apply to any Hugo theme.
 
 Lastly, I should mention the [Hugo documentation](https://gohugo.io/documentation/). Hugo is quite powerful and if you're looking for more control over your website, this is a good place to start.
 
 ## Further customisations
 
-Following above guide, you're pretty much done with creating your own beautiful blog. So, you'd be ready to create content. However, there are many ways you can customise your blog. Here, I want to point out some aspects where I needed further research to find out.
+Following the above guides, you’re pretty much done with creating your own beautiful blog. So, you’d be ready to create content. However, there are many ways you can customise your blog. Here, I want to point out some aspects where I needed further research to find out.
 
 ### Commenting
 
-You may want to enable readers of your blog to comment on your posts. Many themes, including the Apéro theme, have commenting features built in. That is, using third party tools to be embedded in your blog. The Apéro theme allows for comments using [Utterances](https://utteranc.es/) or [Disqus](https://disqus.com/).
+You may want to enable readers of your blog to comment on your posts. Many themes, including the Apéro theme, have commenting features built in. These themes leverage third party tools which are embedded in your blog. The Apéro theme allows for comments using Utterances or Disqus.
 
 * **[Utterances](https://utteranc.es/)** is lightweight, completely free and uses Github issues in the background. For commenting a Github account is needed. So it seems ideal if you can expect the majority of your readers having a Github account anyway. But even if not, creating a Github account is free. The Apéro theme has a section `params.utterances` in the *config.toml*-file for configuration.
-* **[Disqus](https://disqus.com/)** offers commenting with lots of features. However, the free option comes with adds and core features only. One of the positives is that they offer multiple ways for users to identify themselves. That is popular social media accounts and optionally also unregistered guest commenters. If you want to use Disqus, you need to sign up, create a Disqus-site that represents your blog and set the `disqusShortname` parameter in *config.toml* to the Disqus short name. Don't forget to set `use_utterances` to `false` and you should be good to go.
+* **[Disqus](https://disqus.com/)** offers commenting with lots of features. However, the free option comes with adds and core features only. One of the positives is that they offer multiple ways for users to identify themselves. This includes popular social media accounts and optionally also unregistered guest commenters. If you want to use Disqus, you need to sign up, create a Disqus-site that represents your blog and set the `disqusShortname` parameter in *config.toml* to the Disqus short name. Don't forget to set `use_utterances` to `false` and you should be good to go.
 
 I personally wanted to start with Disqus as I expect to have a significant number of my readers not to have a Github account. However, I found the ads that come with Disqus to be of low quality which I did not want to have on my blog. [According to Disqus](https://help.disqus.com/en/articles/1717307-subscription-payments-faq) advertising is optional for "personal blogs, .edu sites, and non-profits". However, even after some googling I could not find how to make use of that policy. Thus, I went with Utterances.
 
 ### Overview pages
 
-There's a bunch of metadata your posts come with. You can also create a taxonomy of your pages via providing `tags`, `categories` or [other custom taxonomies](https://gohugo.io/content-management/taxonomies/). You may also collect posts via a `series`. For these taxonomies, many themes, including the Apéro theme, (maybe all?) automatically provide an overview page for each taxonomy. You can access them via `<your_base_url>/tag` / `<your_base_url>/categories` / `*<your_base_url>/series` (replace `<your_base_url>` with your base url). You can easily link these in your header/footer. For example I linked the tags overview page in the footer via placing the following under `[menu]` in *config.toml*:
+Your post comes with a lot of metadata which is very useful for users to navigate your blog and for search engines to process your blog. You can also create a taxonomy of your pages via providing `tags`, `categories` or [other custom taxonomies](https://gohugo.io/content-management/taxonomies/). 
+You may also collect posts via a `series`. For these taxonomies, many themes, including the Apéro theme (maybe all themes do?),  automatically provides an overview page for each taxonomy. You can access them via `<your_base_url>/tag` / `<your_base_url>/categories` / `*<your_base_url>/series` (replace `<your_base_url>` with your base url). You can easily link these in your header/footer. For example I linked the tags overview page in the footer via placing the following under `[menu]` in *config.toml*:
 
 ```toml
   [[menu.footer]]
@@ -90,14 +91,14 @@ There's a bunch of metadata your posts come with. You can also create a taxonomy
 
 ### Archive page
 
-I do like the idea of an archive page providing readers a quick and easy chronological overview of all blog posts. Some themes do come with a archive page, but the Apéro theme does not seem to do so. At least I couldn't find it. So, I built one one my own which you are welcome to reuse:
+I do like the idea of an archive page providing readers a quick and easy chronological overview of all blog posts. Some themes do come with an archive page, but the Apéro theme does not seem to do so. At least I couldn’t find it. So, I built an archive page on my own which you are welcome to reuse:
 
 Here blogdown comes in handy, as I can use [R markdown](https://rmarkdown.rstudio.com/) to programmatically create content. I created a folder `archive` within the `content` folder and placed an `index.Rmd` file in there. You can find the code of the current live version on Github:
 
 * file [`/content/archive/index.Rmd`](https://github.com/rietho/blogdown_website/blob/main/content/archive/index.Rmd)
 * file [`R/functions.R`](https://github.com/rietho/blogdown_website/blob/main/R/functions.R) where I saved some functions I wrote to help with the archive page
 
-In theory you should be able to simply copy these files as they are. The code is not perfectly clean, but it should work well.
+In theory, you should be able to simply copy these files as they are. The code is not perfectly clean, but it should work well.
 
 The basic idea is the following:
 
