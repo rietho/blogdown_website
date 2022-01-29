@@ -33,17 +33,17 @@ For me, as for many other people, writing about topics I’m interested in, help
 There are 6 great reasons why the name of this blog is "Gap the Mind". These relate to the topics I wanna write about, but they are also pragmatic. And, to be honest, some of the reasons occurred to me after I found the name.
 
 1. **This blog is about gaps and the mind**<br>
-  As I'll describe later, the topics I wanna write about are all in some sense about gaps and the mind. But to summarise it here: Gaps to bridge are everywhere. And in today's world, we like to use our minds to solve pretty much every problem. The latter is too often the case, even if our mind is not the right tool for the problem.
+  The topics I wanna write about are all, at least in the wider sense, about gaps and the mind. But to summarise it here: Gaps to bridge are everywhere. And in today’s world we like to use our mind to solve pretty much every problem, even if our mind might not be the right tool for the problem.
 
 2. **The name originates from "Mind the Gap"** -- surprise :astonished: --, **but often things are upside down**<br>
-  "Mind the Gap" refers to many things. There are literal gaps in the ground like in the underground or mental gaps between what you mean and what others understand. Ideally, we wanna mind these gaps. That is at least be aware of them and ideally not fall into them. At the same time, things are often mixed up.</br></br>
-  Let's look at examples from a fictional person named Gary. Let's say Gary falls into a construction hole in the ground. Gary might think that the gap should not have been there in the first place. That is like Gary feeling he does not need to mind gaps because they should not be here. Or Gary might say that someone else should mind the gap for him via security measures. Of course security is important, but that does not mean that we don't need to mind any gaps any more. Or lets say Gary is misunderstood by his friend and argues that it's the fault of his friend. Seems like an understanding gap. Garry things his friend did understood his words "wrong". And Gary's friend might say that Gary said the "wrong" words.
+  “Mind the Gap” refers to many things. There are literal gaps in the physical world like in the underground and also mental gaps, often between what somebody means and what others understand. Ideally, we wanna mind these gaps. In any way, it is important to be at least aware of them and ideally not fall into them. At the same time, things are often mixed up.
+  Lets say a person named Gary is misunderstood by his friend and argues that it’s the fault of his friend. Seems like an understanding gap. Garry thinks his friend did understand his words in a “wrong” way. And Gary’s friend might say that Gary said the “wrong” words.
 
-3. **"Mind the Gap" is used way to often on the internet**<br>
+3. **Mind the Gap” is used very often already.**<br>
   Originally I thought about naming the blog "Mind the Gap". But too many blogs and sites use this name already. So, I simply needed something else.
 
 4. **Mindfulness**<br>
-  Early 2021, I started getting interested in [Mindfulness](https://en.wikipedia.org/wiki/Mindfulness). I like to think of Mindfulness as a practice for training your mind to help you be mindful where needed. Obviously, we wanna be mindful of gaps that we don't want to miss. But Mindfulness is actually about using more than just your mind. It's about using your senses and being aware of emotions and feelings as they arise. In some sense Mindfulness it not at all about minding gaps. Here, I'm referring to gaps in the sense of the difference between where we are and where we wanna be. Mindfulness is more about minding where we are right now.
+  Early 2021, I started getting interested in [Mindfulness](https://en.wikipedia.org/wiki/Mindfulness). One way, I like to think of Mindfulness as a training of my mind and brain helping me to be mindful where needed. Obviously, we wanna be mindful of gaps that we don’t want to miss. But Mindfulness is actually about using more than just your mind. It’s about using your senses and being aware of emotions and feelings as they arise. In some sense, Mindfulness is not at all about minding gaps. Here, I’m referring to gaps in the sense of the difference between where we are and where we wanna be. Mindfulness is more about being aware of where we are right now.
 
 5. **Gap the mind**<br>
   "Gap" is unfortunately not a verb. But let's not get hung up on details and understand "gap" in terms of "to bridge the gap from". That way we can understand "gap the mind" as "bridge the gap from the mind". So, a gap  to bridge from the mind to something else. And there are many gaps between our minds and other things. That is for example between the mind and our emotions, our actions, our words, other peoples perception, how much we get done and so on. In the next section, I'll write more about examples from the specific domains I wanna blog about.
@@ -60,17 +60,17 @@ To summarise, why I chose this blog name:
 
 ## Where we might wanna <i>gap the mind</i>
 
-Now that you all know why I named this blog *Gap the Mind*, I wanna shed some light on how the name relates to the topics I wanna blog about.
+Now that you know why I named this blog *Gap the Mind*, I wanna shed some light on how the name relates to the topics I wanna blog about.
 
 ### Data Analytics
 
 Let's say we have data on songs. That might include information like the name of the song, artist, genre, length or how many people listened to the song. When analysing such data we typically want some sort of summary to give us insights.
 
-* For example we could look at average daily number of people listening to a song.
+* For example we could look at the average daily number of people listening to a song.
 * Or we could cluster the songs into groups of similar songs.
 * We could also build a model telling us for a new person which songs they might like most.
 
-All these cases give us a certain summary of the data revealing some insight. And in all these cases there are many gaps. For example there is a gap between the average daily number of people listening to a song and how many people actually listened to a specific song. Or there's a gap between what a model says a new person might like and what they'll actually like. Often these gaps are quantified for example by variation, but even then there's a gap between how we quantify the gap and the actual gap.
+All these cases give us a certain summary of the data revealing some insight. And in all these cases there are many gaps. For example there is a gap between the average daily number of people listening to a song and how many people actually listened to a specific song. Or there's a gap between what a model says a new person might like and what they'll actually like. Often these gaps are quantified, for example, by variation, but even then there's a gap between how we quantify the gap and the actual gap.
 
 So, we wanna be mindful of these gaps. That is important to not draw any wrong conclusions. When the daily average number of listeners is a 100, we could expect for a new song on average 100 listeners per day. But we wanna be mindful that the actual number of listeners might be lower or higher.
 
