@@ -33,17 +33,17 @@ For me, as for many other people, writing about topics I’m interested in, help
 There are 6 great reasons why the name of this blog is "Gap the Mind". These relate to the topics I wanna write about, but they are also pragmatic. And, to be honest, some of the reasons occurred to me after I found the name.
 
 1. **This blog is about gaps and the mind**<br>
-  The topics I wanna write about are all, at least in the wider sense, about gaps and the mind. But to summarise it here: Gaps to bridge are everywhere. And in today’s world we like to use our mind to solve pretty much every problem, even if our mind might not be the right tool for the problem.
+  The topics I wanna write about are all, at least in the wider sense, about gaps and the mind. But to summarise it here: Gaps to bridge are everywhere. And in today’s world, we like to use our minds to solve pretty much every problem, even if our mind might not be the right tool for the problem.
 
 2. **The name originates from "Mind the Gap"** -- surprise :astonished: --, **but often things are upside down**<br>
   “Mind the Gap” refers to many things. There are literal gaps in the physical world like in the underground and also mental gaps, often between what somebody means and what others understand. Ideally, we wanna mind these gaps. In any way, it is important to be at least aware of them and ideally not fall into them. At the same time, things are often mixed up.
-  Lets say a person named Gary is misunderstood by his friend and argues that it’s the fault of his friend. Seems like an understanding gap. Garry thinks his friend did understand his words in a “wrong” way. And Gary’s friend might say that Gary said the “wrong” words.
+  Let's say a person named Gary is misunderstood by his friend and argues that it’s the fault of his friend. Seems like an understanding gap. Garry thinks his friend did understand his words in a “wrong” way. And Gary’s friend might say that Gary said the “wrong” words.
 
 3. **Mind the Gap” is used very often already.**<br>
   Originally I thought about naming the blog "Mind the Gap". But too many blogs and sites use this name already. So, I simply needed something else.
 
 4. **Mindfulness**<br>
-  Early 2021, I started getting interested in [Mindfulness](https://en.wikipedia.org/wiki/Mindfulness). One way, I like to think of Mindfulness as a training of my mind and brain helping me to be mindful where needed. Obviously, we wanna be mindful of gaps that we don’t want to miss. But Mindfulness is actually about using more than just your mind. It’s about using your senses and being aware of emotions and feelings as they arise. In some sense, Mindfulness is not at all about minding gaps. Here, I’m referring to gaps in the sense of the difference between where we are and where we wanna be. Mindfulness is more about being aware of where we are right now.
+  Early 2021, I started getting interested in [Mindfulness](https://en.wikipedia.org/wiki/Mindfulness). One way, I like to think of Mindfulness as training of my mind and brain helping me to be mindful where needed. Obviously, we wanna be mindful of gaps that we don’t want to miss. But Mindfulness is actually about using more than just your mind. It’s about using your senses and being aware of emotions and feelings as they arise. In some sense, Mindfulness is not at all about minding gaps. Here, I’m referring to gaps in the sense of the difference between where we are and where we wanna be. Mindfulness is more about being aware of where we are right now.
 
 5. **Gap the mind**<br>
   I'd like to define "gap the mind" for me as "bridge the gap from the mind". So, a gap to bridge from the mind to something else. And there are many gaps between our minds and other things. For example between the mind and our emotions, our actions, our words, other peoples perception, how much we get done and so on. In the next section, I write more about examples from the specific domains I wanna blog about.
@@ -70,19 +70,19 @@ Let's say we have data on songs. That might include information like the name of
 * Or we could cluster the songs into groups of similar songs.
 * We could also build a model telling us for a new person which songs they might like most.
 
-All these cases give us a certain summary of the data revealing some insight. And in all these cases there are many gaps. For example there is a gap between the average daily number of people listening to a song and how many people actually listened to a specific song. Or there's a gap between what a model says a new person might like and what they'll actually like. Often these gaps are quantified, for example, by variation, but even then there's a gap between how we quantify the gap and the actual gap.
+All these cases give us a certain summary of the data revealing some insight. And in all these cases there are many gaps. For example, there is a gap between the average daily number of people listening to a song and how many people actually listened to a specific song. Or there's a gap between what a model says a new person might like and what they'll actually like. Often these gaps are quantified, for example, by variation, but even then there's a gap between how we quantify the gap and the actual gap.
 
-So, we wanna be mindful of these gaps. That is important to not draw any wrong conclusions. When the daily average number of listeners is a 100, we could expect for a new song to have on average 100 listeners per day. But we wanna be mindful that the actual number of listeners might be lower or higher.
+So, we wanna be mindful of these gaps. That is important to not draw any wrong conclusions. When the daily average number of listeners is 100, we could expect a new song to have on average 100 listeners per day. But we wanna be mindful that the actual number of listeners might be lower or higher.
 
-When analysing data, we do not just want to be mindful about the gap between our summary and what happens in reality. We also wanna watch out for how people interpret our data vs. which interpretation is actually feasible. There are often quite some gaps between the ideas people have in their mind and the actual data.
+When analysing data, we do not just want to be mindful of the gap between our summary and what happens in reality. We also wanna watch out for how people interpret our data vs. which interpretation is actually feasible. There are often quite some gaps between the ideas people have in their minds and the actual data.
 
 All of that is a long way of saying, even though data analytics is often seen as purely technical or objective, there are many gaps and a lot happens in people's minds. And way too often things get mixed up.
 
 ### Management
 
-In people management, managers have certain things in mind they want to achieve. And they have certain expectations towards their team in mind. Obviously, this can lead to many gaps: for example between the manager's expectations and what the team thinks is expected from them, or what the team is actually doing, or to which results, achievements, and behaviors these expectations actually lead.
+In people management, managers have certain things in mind they want to achieve. And they have certain expectations towards their team in mind. Obviously, this can lead to many gaps: for example between the manager's expectations and what the team thinks is expected from them, or what the team is actually doing, or to which results, achievements, and behaviours these expectations actually lead.
 
-So many gaps to keep mind. And many gaps to bridge from the manager's mind.
+So many gaps to keep in mind. And many gaps to bridge from the manager's mind.
 
 ### Mental health
 
