@@ -2,7 +2,7 @@
 title: "Mindfulness? What? Why? Are You Sure?"
 subtitle: ""
 excerpt: "TBD"
-date: 2022-01-18T14:06:54Z
+date: 2022-01-18
 author: ""
 draft: true
 series:

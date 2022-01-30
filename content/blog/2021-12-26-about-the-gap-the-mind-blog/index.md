@@ -36,8 +36,9 @@ There are 6 great reasons why the name of this blog is "Gap the Mind". These rel
   The topics I wanna write about are all, at least in the wider sense, about gaps and the mind. But to summarise it here: Gaps to bridge are everywhere. And in today’s world, we like to use our minds to solve pretty much every problem, even if our mind might not be the right tool for the problem.
 
 2. **The name originates from "Mind the Gap"** -- surprise :astonished: --, **but often things are upside down**<br>
-  “Mind the Gap” refers to many things. There are literal gaps in the physical world like in the underground and also mental gaps, often between what somebody means and what others understand. Ideally, we wanna mind these gaps. In any way, it is important to be at least aware of them and ideally not fall into them. At the same time, things are often mixed up.
-  Let's say a person named Gary is misunderstood by his friend and argues that it’s the fault of his friend. Seems like an understanding gap. Garry thinks his friend did understand his words in a “wrong” way. And Gary’s friend might say that Gary said the “wrong” words.
+  “Mind the Gap” refers to many things. There are literal gaps in the physical world like in the underground and also mental gaps, often between what somebody means and what others understand. Ideally, we wanna mind these gaps. In any way, it is important to be at least aware of them and ideally not fall into them. At the same time, things are often mixed up.<br>
+  Let's say a person named Gary is misunderstood by his friend and argues that it’s the fault of his friend. Seems like an understanding gap. Garry thinks his friend did understand his words in a “wrong” way. And Gary’s friend might say that Gary said the “wrong” words.<br>
+  "Mind the gap"" also does remind me of Bréne Brown's book [Daring Greatly](https://brenebrown.com/book/daring-greatly/). There she refers to value gaps. We all have personal values like honesty, kindness or courage. Adhering to our values 100% of the time is unrealistic. But it is helpful to be mindful of the gaps between our values and what we actually do.
 
 3. **Mind the Gap” is used very often already.**<br>
   Originally I thought about naming the blog "Mind the Gap". But too many blogs and sites use this name already. So, I simply needed something else.
