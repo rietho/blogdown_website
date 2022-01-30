@@ -61,11 +61,15 @@ if (length(blog_yamls) > 0) {
   df <- reduce(blog_yamls, bind_rows, .init = data.frame()) %>%
     mutate(text = glue::glue("[{title}]({link})")) %>%
     select(year, month, text) %>%
-    arrange(desc(year), desc(month), text)
+    arrange(desc(year), desc(month), text) %>% 
+    # year and month combination to correctly identify month names to not show
+    mutate(year_mon = paste(year, month, sep = "_"))
   # make ready for printing
   df <- df %>%
     remove_cons_duplicates("year") %>%
-    remove_cons_duplicates("month")
+    remove_cons_duplicates("year_mon") %>%
+    mutate(month = if_else(is.na(year_mon), NA_character_, as.character(month))) %>% 
+    select(-year_mon)
 } else {
   df <- data.frame()
 }
