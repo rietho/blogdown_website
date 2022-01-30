@@ -59,9 +59,25 @@ To summarise, why I chose this blog name:
 <div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/9G3xuelhlGbiyVocla" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 <p style="color:grey; font-size:0.7em; margin:0; text-align: center;"><a href="https://giphy.com/gifs/love-happy-yes-9G3xuelhlGbiyVocla">via GIPHY</a></p>
 
+## What this blog is about
+
+The main topics I want to write about are data science, management and mental health. Each of these topics is very broad for itself. Thus, I'd like give you a glimpse into how I am thinking about these topics.
+
+### Data Science
+
+
+
+### Management
+
+
+
+### Mental Health
+
+
+
 ## Where we might wanna <i>gap the mind</i>
 
-Now that you know why I named this blog *Gap the Mind*, I wanna shed some light on how the name relates to the topics I wanna blog about.
+Now you know why I named this blog *Gap the Mind* and the topics I envious to cover. What's left, is to shed some light on how these relate to each other.
 
 ### Data Science
 
