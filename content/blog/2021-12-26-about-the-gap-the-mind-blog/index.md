@@ -1,8 +1,8 @@
 ---
 title: "About the Gap the Mind Blog"
-subtitle: "An experiment and a journey on writing about data analytics, management and mental health"
-excerpt: "The 'Gap the Mind' blog is an experiment and a journey on writing about data analytics, management and mental health."
-date: 2021-12-31
+subtitle: "An experiment and a journey on writing about data science, management and mental health"
+excerpt: "The 'Gap the Mind' blog is an experiment and a journey on writing about data science, management and mental health."
+date: 2022-01-30
 author: "Thomas Lieb"
 draft: false
 series:
@@ -10,7 +10,7 @@ tags:
   - Blog
 categories:
   - Management
-  - Data Analytics
+  - Data Science
   - Mental Health
 layout: single # single or single-sidebar
 slug: about-the-gap-the-mind-blog
@@ -62,7 +62,7 @@ To summarise, why I chose this blog name:
 
 Now that you know why I named this blog *Gap the Mind*, I wanna shed some light on how the name relates to the topics I wanna blog about.
 
-### Data Analytics
+### Data Science
 
 Let's say we have data on songs. That might include information like the name of the song, artist, genre, length or how many people listened to the song. When analysing such data we typically want some sort of summary to give us insights.
 
@@ -76,7 +76,7 @@ So, we wanna be mindful of these gaps. That is important to not draw any wrong c
 
 When analysing data, we do not just want to be mindful of the gap between our summary and what happens in reality. We also wanna watch out for how people interpret our data vs. which interpretation is actually feasible. There are often quite some gaps between the ideas people have in their minds and the actual data.
 
-All of that is a long way of saying, even though data analytics is often seen as purely technical or objective, there are many gaps and a lot happens in people's minds. And way too often things get mixed up.
+All of that is a long way of saying, even though data science is often seen as purely technical or objective, there are many gaps and a lot happens in people's minds. And way too often things get mixed up.
 
 ### Management
 

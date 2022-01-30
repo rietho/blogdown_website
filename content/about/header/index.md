@@ -7,7 +7,11 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-I'm an Austrian :flag-at: living in Ireland :flag-ie: and working in the tech industry. MY educational background is in mathematics, statistics and conflict management. Currently, I work in Business Intelligence at [Indeed.com](https://indeed.com/). On this blog I write about topics I'm passionate about. At least for a start, my posts will evolve around data science and in particular the R programming language, people management and leadership as well as mental health with a focus on mindfulness.
+I'm an Austrian :flag-at: living in Ireland :flag-ie: and working in the tech industry. My educational background is in mathematics, statistics and conflict management. Currently, I work in Business Intelligence at [Indeed.com](https://indeed.com/). On this blog, I write about topics I'm passionate about. At least for a start, my posts will revolve around 3 main themes:
+
+1. Data science and in particular the R programming language
+2. People management and leadership
+3. Mental health with a focus on mindfulness
 
 Also good to mention: I'm a big fan of the [R programming language](https://cran.r-project.org/). Therefore, this site is built with the R package [blogdown](https://pkgs.rstudio.com/blogdown/)).
 

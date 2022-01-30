@@ -2,13 +2,13 @@
 title: "How to set up your own blog (using R and blogdown)"
 subtitle: "A guide (for R users) to a beautiful blog"
 excerpt: "This post is a brief overview on how you can build your own blog. I share my own experience based on the R package blogdown."
-date: 2022-01-01
+date: 2022-01-30
 author: "Thomas Lieb"
 draft: false
 series:
 tags: [r, blog, blogdown, hugo-website-framework]
 categories:
-  - Data Analytics
+  - Data Science
 layout: single # single or single-sidebar
 slug: how-to-set-up-your-own-blog-using-R-and-blogdown
 ---
