@@ -65,6 +65,19 @@ The main topics I want to write about are data science, management and mental he
 
 ### Data Science
 
+The term Data Science does not have a clear definition. I do like the definition used by Google's Chief Decision Scientist Cassie Kozyrkov:
+
+> Data Science is the discipline of making data useful ([source](https://www.youtube.com/watch?v=I6XbLIRa0v0))
+
+At the time of writing I am working in [Business Intelligence (BI)](https://en.wikipedia.org/wiki/Business_intelligence) at  [Indeed](https://indeed.com). BI is often used to help a business make decisions. Depending on the company, BI is making use of all the Data Science sub-disciplines: Analytics, Machine Learning and Artificial Intelligence (AI) as well as Statistics. In my day to day, I am touching on all aspects of Data Science. In this blog, I will refer by Data Science to all aspects of making data useful.
+
+I am not yet sure about which topics and aspects of Data Science I want to write. For start, I wanna cover topics that are not strictly Data Science, but closely related: About my experience on creating this blog using R as well as about building a data-driven CV using R. Beyond that, there are many topics I can think of:
+
+* What makes up a great Data Scientist?: There are many skills involved beyond pure technical ones.
+* Biases in Data Science: There are many to watch out for. And there are many that can creep in in all stages of a Data Science project.
+* What does it take to even get started with Data Science?: There's a lot more involved than pure Data Science like data availability.
+* What it means to be a Data Scientist beyond Data Science?: Being a Data Scientist involves a lot more than doing Data Science. Even beyond the broad range of skill set mental aspects like Fear of Missing Out (FOMO) or Imposter Syndrome play a role.
+
 
 
 ### Management
