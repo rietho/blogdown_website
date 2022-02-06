@@ -145,6 +145,22 @@ In case you are using Netlify, you end up with a link that looks something like 
 
 I was using [Cloudflare] to buy my domain, as they are offering free CNAME flattening. This includes that my blog can be reached via https://gapthemind.info (i.e. the `www` can be omitted). Both Cloudflare and Netlify need to be configured to work together. It took me a bit to figure out how, but [here](https://jaketrent.com/post/cloudflare-dns-netlify-host)'s a nice blog post illustrating the steps.
 
+### Image, GIF, Video and Meme Licences
+
+> Disclaimer: Nothing I say/write here is legal advice. I do my best to not be wrong, but I don't guarantee it.
+
+When writing blog posts, you might want to embed images, GIFs, videos or memes. I think embedding such content is a great way of loosening up your text, making it more engaging or introducing some fun. However, you do want to keep it legal by using only material that you have permission to use. Often, the material comes with a licence that defines if, how and under which conditions you may or may not use the content.
+
+There are websites to get visual content from for free. Other sites require you to pay. Here are some resources I found to be useful. I'll share my understanding of the licensing. But again, this is no legal advice and I might be wrong. Also, licences can change over time.
+
+* [Unsplash](https://unsplash.com/): Unsplash is a great archive for stock photos. Their photos are free to use. But be sure to check out their nicely readable [licence page](https://unsplash.com/license). And even if you do not need to attribute Unsplash or the creator, I think it is very respectful to do so.
+* [Giphy](https://giphy.com/): Giphy is a great page for GIFs. It is my understanding that Giphy allows you to use their GIFs freely as authorised by their service. For example, they offer embedding GIFs. But as users can upload content to Giphy, in general, you can't be sure that there are no copyright issues. Also, laws in the country you are located in might affect what you can or can't do.
+* [Imgflip](https://imgflip.com/): I like Imgflip for generating memes. According to their [terms of service](https://imgflip.com/terms), you can link to their memes, but need to link back to their site. Similar to Giphy, Imgflip allows users to upload content. So copyright issues might still arise.
+* [Youtube](https://www.youtube.com/): For most videos on Youtube, you can get HTML code to embed the video in your post. It is my understanding that Youtube videos can be embedded without the need to ask for permission. But again, users upload content, so copyright issues could emerge. Also, it's likely a good idea to read Youtube's term of service.
+* Your own photos: You can of course simply use your own photos. As far as I know, it's still important to watch out for what's visible in your photo. For example, there might be country-specific limitations on other people being visible or on any other copyrighted material being visible.
+
+As you can see, licensing is not an easy topic. Just writing about it, gives me a headache. But I think it is worth it to invest some time in where to get your content from and what you can or can't do with that content. With that, youÄre hopefully on the safe side and can focus again on blogging :smile:
+
 ## Summing things up
 
 There are many options for how you can create your own blog. With `blogdown` you have a nice R package at your disposal giving you lots of options on how to customise the look and feel of your blog. You can even use R markdown to generate content. In any case, I hope you find this post helpful.
