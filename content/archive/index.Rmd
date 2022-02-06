@@ -13,15 +13,20 @@ slug: archive
 You can check posts also by [tags](../tags) or [categories](../categories)
 
 ```{r include=FALSE}
-source("../../R/functions.R")
+library(conflicted)
 require(tidyverse)
 require(lubridate)
+require(here)
 
+here::i_am("content/archive/index.Rmd")
+source(here::here("R/functions.R"))
+```
+
+
+```{r include=FALSE}
 # get yamls (temporarily switch wd to access them correctly)
-wd <- getwd()
-setwd("../../")
+setwd("../../.")
 all_yaml <- scan_yaml()
-wd <- getwd()
 
 # extract blog yamls
 blog_yamls <- all_yaml[
@@ -32,22 +37,39 @@ if (length(blog_yamls) > 0) {
   # order by date
   blog_yamls <-
     blog_yamls[map(blog_yamls, ~ .x$date) %>% unlist() %>% order()]
+  # check if all needed data is present
+  # adjust if permalink changes
+  blog_yamls %>% imap(
+    ~ if (is.null(.x$title) | is.null(.x$date) | is.null(.x$slug)) {
+      stop(glue::glue("file '{.y}' is missing one of title, date or slug!"))
+    })
   # extract the needed data
   blog_yamls <- blog_yamls %>% imap( ~ list(
     title = .x$title,
     year = year(.x$date),
     month = month(.x$date, label = TRUE, abbr = FALSE),
-    link = str_extract(.y, "(?<=content/).*(?=index\\.md)")
+    link = 
+      paste0( # adjust if permalink changes
+        "/blog/",
+        year(.x$date), "/",
+        stringr::str_pad(month(.x$date), 2, "left", 0), "/",
+        stringr::str_pad(day(.x$date), 2, "left", 0), "/",
+        stringr::str_to_lower(.x$slug), 
+        "/")
   ))
   # generate data frame
   df <- reduce(blog_yamls, bind_rows, .init = data.frame()) %>%
-    mutate(text = glue::glue("[{title}](../{link})")) %>%
+    mutate(text = glue::glue("[{title}]({link})")) %>%
     select(year, month, text) %>%
-    arrange(desc(year), desc(month), text)
+    arrange(desc(year), desc(month), text) %>% 
+    # year and month combination to correctly identify month names to not show
+    mutate(year_mon = paste(year, month, sep = "_"))
   # make ready for printing
   df <- df %>%
     remove_cons_duplicates("year") %>%
-    remove_cons_duplicates("month")
+    remove_cons_duplicates("year_mon") %>%
+    mutate(month = if_else(is.na(year_mon), NA_character_, as.character(month))) %>% 
+    select(-year_mon)
 } else {
   df <- data.frame()
 }
