@@ -145,23 +145,21 @@ TBD
 
 ### To consider when reading my posts
 
+As you might guess, the topics I just described have quite a bit of overlap. Just think about a data science manager thinking about the mental health of her team. In that sense, you'll likely see posts touching on multiple topics at once.
+
+In addition, I wanna be clear about the following:
+
 * I am sharing my personal opinion. At the same time, I do some research and link it where appropriate.
 * I do not claim to know the truth. I write about how I make sense of things based on my experience, conversations with others and my reading.
 * I am more than happy to discuss the content of my pots. Depending on the volume and my time availability, I might not engage in every discussion. At the same time, I love to hear about other peoples perspectives. And I am very happy to be proven wrong, as that would mean that I learned something.
 
 ## Where we might wanna <i>gap the mind</i>
 
-Now you know why I named this blog *Gap the Mind* and the topics I envision covering. What's left, is to shed some light on how these relate to each other.
+Now you know why I named this blog *Gap the Mind*. Hopefully, you also have a good sense of the topics I envision covering. What's left, is to shed some light on how all these relate to each other.
 
 ### Data Science
 
-Let's say we have data on songs. That might include information like the name of the song, artist, genre, length or how many people listened to the song. When analysing such data we typically want some sort of summary to give us insights.
-
-* For example we could look at the average daily number of people listening to a song.
-* Or we could cluster the songs into groups of similar songs.
-* We could also build a model telling us for a new person which songs they might like most.
-
-All these cases give us a certain summary of the data revealing some insight. And in all these cases there are many gaps. For example, there is a gap between the average daily number of people listening to a song and how many people actually listened to a specific song. Or there's a gap between what a model says a new person might like and what they'll actually like. Often these gaps are quantified, for example, by variation, but even then there's a gap between how we quantify the gap and the actual gap.
+Let's say we have data on how songs like how many people listened to each song each day. When analysing such data we typically want some sort of summary to give us insights. For example, we could simply look at the average daily number of people listening to a song. But it's important to consider what gap could come with that summary. For example, there is a gap between the average daily number of people listening to a song and how many people actually listened to a specific song.
 
 So, we wanna be mindful of these gaps. That is important to not draw any wrong conclusions. When the daily average number of listeners is 100, we could expect a new song to have on average 100 listeners per day. But we wanna be mindful that the actual number of listeners might be lower or higher.
 
@@ -180,13 +178,6 @@ So many gaps to keep in mind. And many gaps to bridge from the manager's mind.
 In mental health, our mind obviously plays an essential role. And there are many potential gaps.[According to the WHO](https://www.who.int/health-topics/mental-health#tab=tab_2) "20% of the world’s children and adolescents have a mental health condition".
 
 Mental health is a serious and complex topic. While a lot of research is done, it is my understanding that there's a lot we still don't know. I feel more and more people talk about mental health along with their personal experiences. But despite that, the topic is still widely disregarded and for many, it comes with fear or even shame. Thus, there's quite a gap between where I'd hope we would be as a society and where we are today. Hopefully, I can help to narrow this gap, if only a tiny bit.
-
-Related to mental health, I do think there are many gaps to bridge from what we have in our mind and what actually happens:
-
-* We might think that mental health is nothing we need to worry about for ourselves. But nobody is immune to having mental health problems. Just remember that anyone can experience difficult life situations and hardship impacting mental health.
-* There are often gaps between how we think something will make us feel and how we actually feel. For example, when I worked on a stressful project, I thought that it would be so relaxing once the project was done and that I would be so happy. Those feelings were definitely there, but not as intense as I thought and certainly not as long-lasting as I wished. Too often we think that things will be better if only x happens.
-* For many people there is a gap between what we expect from ourselves or what we think others expect from us and what we're really able to do.
-* There are often gaps between how we want to feel and how we actually feel. For example, you might not want to feel anxious, stressed, depressed, scared, or like an imposter. However, many if not all of us feel that way at least sometimes. And not wanting to feel that way usually makes things worse.
 
 ## And now?
 
