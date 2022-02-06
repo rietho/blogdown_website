@@ -145,7 +145,7 @@ In case you are using Netlify, you end up with a link that looks something like 
 
 I was using [Cloudflare] to buy my domain, as they are offering free CNAME flattening. This includes that my blog can be reached via https://gapthemind.info (i.e. the `www` can be omitted). Both Cloudflare and Netlify need to be configured to work together. It took me a bit to figure out how, but [here](https://jaketrent.com/post/cloudflare-dns-netlify-host)'s a nice blog post illustrating the steps.
 
-### Image, GIF, Video and Meme Licences
+### Check Image, GIF, Video and Meme Licences
 
 > Disclaimer: Nothing I say/write here is legal advice. I do my best to not be wrong, but I don't guarantee it.
 
