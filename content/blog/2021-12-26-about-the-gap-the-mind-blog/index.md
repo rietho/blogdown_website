@@ -2,9 +2,9 @@
 title: "About the Gap the Mind Blog"
 subtitle: "An experiment and a journey on writing about data science, management and mental health"
 excerpt: "The 'Gap the Mind' blog is an experiment and a journey on writing about data science, management and mental health."
-date: 2022-01-30
+date: 2022-02-06
 author: "Thomas Lieb"
-draft: true
+draft: false
 series:
 tags:
   - Blog
