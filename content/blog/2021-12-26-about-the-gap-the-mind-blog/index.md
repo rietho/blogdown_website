@@ -80,7 +80,7 @@ I am not yet sure about which topics and aspects of Data Science I want to write
 
 Just be mindful, that data scientists might sometimes life in their own world :wink:
 
-<p style="margin-bottom:0;"><a href="https://imgflip.com/i/645rhy"><img src="https://i.imgflip.com/645rhy.jpg" title="made at imgflip.com"  width="70%" style="display:block"/></a></p>
+<p style="margin-bottom:0;"><a href="https://imgflip.com/i/645rhy"><img src="https://i.imgflip.com/645rhy.jpg" title="made at imgflip.com" width="70%" style="display:block" alt="Woman and man sitting on dinner table. The man asks: So, what's your idea of a perfect date? The woman answers: YYYY-MM-DD, I find other formats confusing."/></a></p>
 <p style="color:grey; font-size:0.7em; margin:0;">
 <a href="https://imgflip.com/memegenerator" target="_blank">from Imgflip Meme Generator</a>
 </p>
@@ -100,7 +100,7 @@ Currently, I am reading quite a bit about management. At the same time, I am try
 
 I consider management a very serious job. It's a big responsibility, as it can affect employees a lot in good but also bad ways. That is, the saying "choose your manager, not the job" does exist for a reason. And unfortunately there seem to be a lot of examples about bad management out there. At least, there are enough jokes about bad management:
 
-<p style="margin-bottom:0;"><a href="https://imgflip.com/i/645vlb"><img src="https://i.imgflip.com/645vlb.jpg" title="made at imgflip.com" width=45%/></a></p>
+<p style="margin-bottom:0;"><a href="https://imgflip.com/i/6472cd"><img width="50%" src="https://i.imgflip.com/6472cd.jpg" title="made at imgflip.com" alt="Man in funny clothes saying: So, you are a manager? You must be really good at forwarding emails."/></a></p>
 <p style="color:grey; font-size:0.7em; margin:0;">
 <a href="https://imgflip.com/memegenerator" target="_blank">from Imgflip Meme Generator</a>
 </p>
@@ -138,10 +138,10 @@ As I walk my mindfulness path, there are a bunch of topics I want to write about
 
 Just be mindful, that it is very easy to misunderstand things:
 
-TBD
-<img src="https://pics.me.me/mindfulness-is-living-in-the-present-i-feel-better-already-39118854.png" alt="Cat receives text message saying 'Mindfulness is living in the present'. In the next picture the cats sits whtin a present box saying 'I feel better already'" width="50%">
-<p style="color:grey; font-size:0.7em; margin:0;"> via <a href="https://me.me">MEME</a></p>
-TBD
+<p style="margin-bottom:0;"><a href="https://imgflip.com/i/64707y"><img src="https://i.imgflip.com/64707y.jpg" title="made at imgflip.com"/></a></p>
+<p style="color:grey; font-size:0.7em; margin:0;">
+<a href="https://imgflip.com/memegenerator" target="_blank">from Imgflip Meme Generator</a>
+</p>
 
 ### To consider when reading my posts
 
