@@ -69,7 +69,7 @@ The term Data Science does not have a clear definition. I do like the definition
 
 > Data Science is the discipline of making data useful ([source](https://www.youtube.com/watch?v=I6XbLIRa0v0))
 
-At the time of writing I am working in [Business Intelligence (BI)](https://en.wikipedia.org/wiki/Business_intelligence) at  [Indeed](https://indeed.com). BI is often used to help a business make decisions. Depending on the company, BI is making use of all the Data Science sub-disciplines: Analytics, Machine Learning and Artificial Intelligence (AI) as well as Statistics. In my day to day, I am touching on all aspects of Data Science. In this blog, I will refer by Data Science to all aspects of making data useful.
+You might wonder what qualifies me to wirte about Data Science: Apart from my degree in statistics, at the time of writing I am working in [Business Intelligence (BI)](https://en.wikipedia.org/wiki/Business_intelligence) at  [Indeed](https://indeed.com). BI is often used to help a business make decisions using data. Depending on the company, BI is making use of all the Data Science sub-disciplines: Analytics, Machine Learning (ML) and Artificial Intelligence (AI) as well as Statistics. In my case, I am touching on pretty much all aspects of Data Science day by day. In this blog, I will refer by Data Science to all aspects of making data useful.
 
 I am not yet sure about which topics and aspects of Data Science I want to write. For start, I wanna cover topics that are not strictly Data Science, but closely related: About my experience on creating this blog using R as well as about building a data-driven CV using R. Beyond that, there are many topics I can think of:
 
@@ -78,15 +78,45 @@ I am not yet sure about which topics and aspects of Data Science I want to write
 * What does it take to even get started with Data Science?: There's a lot more involved than pure Data Science like data availability.
 * What it means to be a Data Scientist beyond Data Science?: Being a Data Scientist involves a lot more than doing Data Science. Even beyond the broad range of skill set mental aspects like Fear of Missing Out (FOMO) or Imposter Syndrome play a role.
 
-
-
 ### Management
 
+By management I am referring to managing a team. Managing a team comes with a wide range of responsibilities. This can vary by company and organisation, but I think has some truth no matter where. As manager, you are likely to be ,amongst others, be responsible for guiding and coaching individuals, career conversations, performance reviews, team meetings, project acquisition, prioritisation, stakeholder management, strategic planning, budgeting, compensation and so on.
 
+At the time of writing, I am at the start of my personal path in management. And I am fascinated by all the skills involved in being a good manager. A lot of it seems to me be about influencing others like your team, stakeholders, or upper management. But a huge part seems also to be about managing yourself as a manager. That involves things like time management, your priorities, your stress level, your well-being and your own emotions. That is quite broad. And even though my education and career so far has been very technical, I have always had an interest in these "soft skills". For me, this resulted in a degree in mediation, negotiation, communication and conflict management.
+
+Currently, I am reading quite a bit about management. At the same time, I am trying different things out in practice. Thus, don't expect my posts on that topic to be drawn from ten's of years of experience in management. Instead, I am approaching this topic from a perspective of learning, practising and genuine interest. Also here, there are many topics I can think of writing. I do not have super concrete blog post ideas yet. However, here are some topics I can think of. This is also a good place for my future self to look for inspiration ;)
+
+* Moving from individual contributor to manager
+* How to not get burned out as manager
+* Putting learnings from books like *Radical Candor* into practice
+* Mindful management (good overlapping topic with mental health)
 
 ### Mental Health
 
+Last, but not least, I want to blog about mental health. Mental health is a very broad topic that is in my understanding gaining more and more awareness. Here's how the [WHO](https://www.who.int/en/news-room/fact-sheets/detail/mental-health-strengthening-our-response) describes mental health:
 
+> Mental health is a state of well-being in which an individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and is able to make a contribution to his or her community.
+
+So, contrary to a still widespread believe, mental health is a lot more "than the absence of mental disorders" ([WHO](https://www.who.int/en/news-room/fact-sheets/detail/mental-health-strengthening-our-response)). To me, a key word in relation to mental health is *well-being*. And that is not just short term well-being, but maybe much more important the long term well-being. I feel in our modern world there are too many things that make us feel good in the short term, but can far too easily add up to a very negative effect on us in the long term. A lot of these topics are very well known like social media, consumption, focus on performance, desire of fitting in and so on. And there are way too many things that we as a society do to others, that are very damaging for mental health. Things like peer pressure, stereotypes, social classes, xenophobia, racism and all sorts of other hostile attitudes come to mind.
+
+I have many personal encounters and stories with mental health. And I intend to share some of these in my blog posts. Here I wanna say that I came to believe that mental health is one of the most precious things we as humans have in our life. That is maybe even more important than physical health, while they influence each other quite a lot. 
+
+The one topic I got specifically highly interested in in the last year, is Mindfulness. To me, mindfulness is far more than "just" a meditation practice, but a very powerful skill and mindset. Mindfulness helped me a lot in making progress in various areas like
+
+* getting to know myself better,
+* increasing awareness of my emotions as they arise,
+* listening to the needs of my body,
+* enjoying the beauty of the present moment,
+* handling unpleasant things in life,
+* or knowing and feeling that I am good enough the way I am.
+
+Mindfulness may sound somewhat esoteric. And mindfulness does get abused by monetary interests or entangled with New Age beliefs. To be honest, I was quite sceptical when introduced to mindfulness. It is by no means a one-size-fits-all solution. But in my experience it is a very practical approach in getting in touch with a part of ourselves that is very easy to loose touch with.
+
+
+### I'd also like you to know
+
+* my own opinions
+* don't claim to know the truth. I write about how I make sense of things. Happy to discuss.
 
 ## Where we might wanna <i>gap the mind</i>
 
