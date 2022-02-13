@@ -27,7 +27,7 @@ Original photo by <a href="https://unsplash.com/@braydona?utm_source=unsplash&ut
 
 > "Data privacy is challenging since it attempts to use data while protecting an individual's privacy preferences and personally identifiable information." <br>([Wikipedia](https://en.wikipedia.org/wiki/Information_privacy))
 
-Data privacy is not only challenging but also very important. We all want our own data to be well protected and treated with care. That is especially when it comes to very sensitive data like health records or credit card details. But also data on which websites we visit on the internet would not be great to float around the internet.
+Data privacy is not only challenging but also very important. We all want our own data to be well protected and treated with care. That is especially when it comes to very sensitive data like health records or credit card details. But also data on which websites we visit would not be great to float around the internet.
 
 Whilst there are many [tips on how to stay safe on the web](https://support.mozilla.org/en-US/kb/how-stay-safe-web), also lawmakers [started tackling online privacy](https://en.wikipedia.org/wiki/Information_privacy_law). When I started blogging, I suddenly found myself on the side of a website provider being responsible for any data collected on my blog. Slowly, I started to realise that this raises many questions. What do I need to do? What can't I do? What am I responsible for?
 
@@ -55,13 +55,13 @@ This is the very tricky part. In the end, what to do depends on many factors lik
 <a href="https://imgflip.com/memegenerator" target="_blank">from Imgflip Meme Generator</a>
 </p>
 
-*Side note: I studied math. So above Meme is not that far from what I did back in university. That is at except for the suite. So, from my perspective, data privacy laws are actually much more complicated than math.*
+*Side note: I studied math. So above Meme is not that far from what I did back in university. That is except for the suite. So, from my perspective, data privacy laws are actually much more complicated than math.*
 
 ### The simple solution
 
-The simplest solution to me seems to be to not collect any data at all. That is not by myself and not by any third party. For a static website, this means not embedding any third-party content that is tracking data. Sounds easy and is also easy. The challenge is, that this approach comes with limitations. Not using any website analytics tool means that you can't see how many people visit your site. Not embedding social media postings or GIFs means fewer opportunities to loosen up your content.
+The simplest solution to me seems to be to not collect any data at all. That is not by myself and not by any third party. For a static website, this means not embedding any third-party content that is tracking data. Sounds easy. The challenge is, that this approach comes with limitations. Not using any website analytics tool means that you can't see how many people visit your site. Not embedding social media postings or GIFs means fewer opportunities to loosen up your content.
 
-When using Hugo, there are actually some very easy and great ways how to still embed third party content without having them track any data. By simply setting a few parameters you can control privacy settings for popular third party content like Google Analytics, Instagram, Twitter, Vimeo or Youtube. See [here](https://gohugo.io/about/hugo-and-gdpr/) for more info. For some third parties, Hugo actually offers a `simple`-mode, which means that Hugo creates a pure HTML version of the content that does not come with any tracking. I am not 100% sure, but these settings may only apply when using [Hugo's Shortcodes](https://gohugo.io/content-management/shortcodes/#tweet). Here is an example for Twitter:
+When using Hugo, there are actually some very easy and great ways how to still embed third party content without having them track data. By simply setting a few parameters you can control privacy settings for popular third party content like Google Analytics, Instagram, Twitter, Vimeo or Youtube. See [here](https://gohugo.io/about/hugo-and-gdpr/) for more info. For some third parties, Hugo actually offers a `simple`-mode, which means that Hugo creates a pure HTML version of the content that does not come with any tracking. I am not 100% sure, but these settings may only apply when using [Hugo's Shortcodes](https://gohugo.io/content-management/shortcodes/#tweet). Here is an example for Twitter:
 
 {{< tweet user="Headspace" id="1492510305058004994" >}}
 
@@ -90,6 +90,8 @@ With that, you just need to modify the head.html file as described on the Little
 Here's a screenshot of what my banner originally looked like:
 
 <img src="screenshot-cookie-banner.png" alt="Cookie Consent Banner Screenshot" width="98%" style="border: 5px solid white;"/>
+
+I like my cookie consent banner. That is esp. in trying to be transparent and clear to the user. Also, I'm not trying to steer the user in one direction. The red and green button colours are supposed to make it easy for the user to decide what they actually want.
 
 ## Things to watch out for
 
