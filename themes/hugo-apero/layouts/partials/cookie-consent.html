@@ -1,0 +1,81 @@
+<!--
+source: https://littlebigtech.net/posts/hugo-gdpr-cookie-consent-banner/#process
+-->
+
+<div id="cookie-notice" style = "padding: 0.5rem 1rem; display: none;
+text-align: center; position: fixed; z-index:1; bottom: 0; left: 0px; padding-top: 40px;
+padding-bottom: 30px; width: 100%; background: rgba(210,210,210); color: #404040;">
+<span>We would like to use third party cookies and scripts to improve the 
+functionality of this website.</span>
+<br>
+<!--<a id="cookie-notice-accept" class="btn btn-primary btn-sm" style="font-weight: 600; display: inline-flex; cursor: pointer; margin: 0.5rem; padding: 8px; color:rgb(86, 228, 58); background: #f2f2f1;">Approve</a>
+<a id="cookie-notice-deny" class="btn btn-primary btn-sm" style = "font-weight: 600; display: inline-flex; cursor: pointer; margin: 0.5rem; padding: 8px; color:rgb(243, 34, 34); background: #f2f2f1;">Deny</a>-->
+<input id="cookie-notice-accept" type="submit" value="ALLOW" style="background: rgb(39, 159, 63); cursor: pointer; color: white; font-size: .875rem; padding: 10px 10px 8px 10px; margin: 0.5rem; width: 180px; letter-spacing: 1.5px; border-radius: 0; border-color: transparent;" onmouseover="this.style.background='rgb(22, 102, 38)';" onmouseout="this.style.background='rgb(39, 159, 63)';">
+<input id="cookie-notice-deny" type="submit" value="ESSENTIALS ONLY" style="background: rgb(159, 39, 39); cursor: pointer; color: white; font-size: .875rem; padding: 10px 10px 8px 10px; margin: 0.5rem; width: 180px; letter-spacing: 1.5px; border-radius: 0; border-color: transparent;" onmouseover="this.style.background='rgb(113, 27, 27)';" onmouseout="this.style.background='rgb(159, 39, 39)';">
+<br>
+<a href="/privacy" class="btn btn-primary btn-sm" style = " margin-left: 0.5rem;">More info</a></div>
+<script>
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + value + expires + "SameSite = Strict; path=/";
+    }
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+
+    if(readCookie('cookie-notice-option')=='true') {
+        {{ if hugo.IsProduction | or (eq .Site.Params.env "production") }}
+        
+        function loadScriptAsync(scriptSrc, callback) {
+            if (typeof callback !== 'function') {
+                throw new Error('Not a valid callback for async script load');
+            }
+            var script = document.createElement('script');
+            script.onload = callback;
+            script.src = scriptSrc;
+            document.head.appendChild(script);
+        }
+
+        /* This is the part where you call the above defined function and "calls back" 
+        your code which gets executed after the script has loaded */
+        //REPLACE WITH YOUR GA TAG!
+        loadScriptAsync('https://www.googletagmanager.com/gtag/js?id=G-NYMTZXZR2B', function () {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'G-NYMTZXZR2B', { 'anonymize_ip': true }); //REPLACE WITH YOUR GA TAG!
+        })
+
+        {{ end }}
+    } else if (readCookie('cookie-notice-option')!='false'){
+        document.getElementById('cookie-notice').style.display = 'block';
+    }
+
+    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
+        createCookie('cookie-notice-option','true',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
+    document.getElementById('cookie-notice-deny').addEventListener("click",function() {
+        createCookie('cookie-notice-option','false',31);
+        document.getElementById('cookie-notice').style.display = 'none';
+        location.reload();
+    });
+
+</script>
