@@ -159,9 +159,9 @@ enableRobotsTXT = true
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
   [privacy.disqus]
-    disable = false
+    disable = true
   [privacy.googleAnalytics]
-    disable = false
+    disable = true
     anonymizeIP = true
     respectDoNotTrack = true
   [privacy.instagram]
@@ -170,7 +170,7 @@ enableRobotsTXT = true
   [privacy.twitter]
     disable = false
     enableDNT = true
-    simple = false
+    simple = true
   [privacy.vimeo]
     disable = false
     enableDNT = true
