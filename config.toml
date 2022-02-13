@@ -181,5 +181,5 @@ enableRobotsTXT = true
     enableDNT = true
     simple = true
   [privacy.youtube]
-    disable = false
+    disable = true
     privacyEnhanced = true
