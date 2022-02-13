@@ -4,7 +4,7 @@ subtitle: "My experience in following data privacy laws on my blog"
 excerpt: "Data privacy is important and enforced by various laws. But it can be challenging to know how to follow them. In this article I'm sharing my experience."
 date: 2022-02-13
 author: "Thomas Lieb"
-draft: false
+draft: true
 series:
 tags: [blog, privacy]
 categories:
