@@ -145,9 +145,9 @@ In case you are using Netlify, you end up with a link that looks something like 
 
 I was using [Cloudflare] to buy my domain, as they are offering free CNAME flattening. This includes that my blog can be reached via https://gapthemind.info (i.e. the `www` can be omitted). Both Cloudflare and Netlify need to be configured to work together. It took me a bit to figure out how, but [here](https://jaketrent.com/post/cloudflare-dns-netlify-host)'s a nice blog post illustrating the steps.
 
-### Check Image, GIF, Video and Meme Licences
+### Licencing of Images, GIFs, Videos and Memes on your blog
 
-> Disclaimer: Nothing I say/write here is legal advice. I do my best to not be wrong, but I don't guarantee it.
+> Disclaimer: Nothing I say/write here is legal advice. I do my best to not be wrong, but there's no guarantee.
 
 When writing blog posts, you might want to embed images, GIFs, videos or memes. I think embedding such content is a great way of loosening up your text, making it more engaging or introducing some fun. However, you do want to keep it legal by using only material that you have permission to use. Often, the material comes with a licence that defines if, how and under which conditions you may or may not use the content.
 
@@ -159,7 +159,7 @@ There are websites to get visual content from for free. Other sites require you 
 * [Youtube](https://www.youtube.com/): For most videos on Youtube, you can get HTML code to embed the video in your post. It is my understanding that Youtube videos can be embedded without the need to ask for permission. But again, users upload content, so copyright issues could emerge. Also, it's likely a good idea to read Youtube's term of service.
 * Your own photos: You can of course simply use your own photos. As far as I know, it's still important to watch out for what's visible in your photo. For example, there might be country-specific limitations on other people being visible or on any other copyrighted material being visible.
 
-As you can see, licensing is not an easy topic. Just writing about it, gives me a headache. But I think it is worth it to invest some time in where to get your content from and what you can or can't do with that content. With that, youÄre hopefully on the safe side and can focus again on blogging :smile:
+As you can see, licensing is not an easy topic. Just writing about it, gives me a headache. But I think it is worth it to invest some time in where to get your content from and what you can or can't do with that content. With that, you're hopefully on the safe side and can focus again on blogging :smile:
 
 ## Summing things up
 
