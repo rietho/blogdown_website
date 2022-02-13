@@ -161,6 +161,10 @@ There are websites to get visual content from for free. Other sites require you 
 
 As you can see, licensing is not an easy topic. Just writing about it, gives me a headache. But I think it is worth it to invest some time in where to get your content from and what you can or can't do with that content. With that, you're hopefully on the safe side and can focus again on blogging :smile:
 
+### Data Privacy
+
+I did also dive into data privacy. You can read my thoughts, not legal advise, in a [separate blog post](/blog/2022/02/13/blogging-and-privacy).
+
 ## Summing things up
 
 There are many options for how you can create your own blog. With `blogdown` you have a nice R package at your disposal giving you lots of options on how to customise the look and feel of your blog. You can even use R markdown to generate content. In any case, I hope you find this post helpful.
