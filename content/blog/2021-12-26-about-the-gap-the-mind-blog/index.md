@@ -56,8 +56,10 @@ And to give credit where it is due: It was actually my wonderful wife that first
 
 To summarise, why I chose this blog name:
 
-<div style="width:100%;height:0;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/9G3xuelhlGbiyVocla" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-<p style="color:grey; font-size:0.7em; margin:0; text-align: center;"><a href="https://giphy.com/gifs/love-happy-yes-9G3xuelhlGbiyVocla">via GIPHY</a></p>
+<p style="margin-bottom:0;"><a href="https://imgflip.com/i/652066"><img src="https://i.imgflip.com/652066.jpg" title="made at imgflip.com"  width="60%" style="display:block"/></a></p>
+<p style="color:grey; font-size:0.7em; margin:0;">
+<a href="https://imgflip.com/memegenerator" target="_blank">from Imgflip Meme Generator</a>
+</p>
 
 ## What this blog is about
 

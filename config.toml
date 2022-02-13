@@ -4,7 +4,7 @@ languageCode = "en"
 title = "Gap the Mind - A Personal Blog by Thomas Lieb"
 author = "Thomas Lieb"
 copyright = "2021 Thomas Lieb, Dublin, Ireland" # set to override the auto generated copyright using org info and now year
-googleAnalytics = "G-NYMTZXZR2B"
+googleAnalytics = "" # "G-NYMTZXZR2B"
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩
@@ -141,27 +141,32 @@ enableRobotsTXT = true
     url = "/license/"
     weight = 1
   [[menu.footer]]
+    name = "Privacy"
+    title = "Privacy"
+    url = "/privacy/"
+    weight = 2
+  [[menu.footer]]
     name = "Contact"
     title = "Contact form"
     url = "/contact/"
-    weight = 2
+    weight = 3
   [[menu.footer]]
     name = "Categories"
     title = "Categories"
     url = "/categories/"
-    weight = 3
+    weight = 4
   [[menu.footer]]
     name = "Tags"
     title = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 5
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
   [privacy.disqus]
-    disable = false
+    disable = true
   [privacy.googleAnalytics]
-    disable = false
+    disable = true
     anonymizeIP = true
     respectDoNotTrack = true
   [privacy.instagram]
@@ -170,7 +175,7 @@ enableRobotsTXT = true
   [privacy.twitter]
     disable = false
     enableDNT = true
-    simple = false
+    simple = true
   [privacy.vimeo]
     disable = false
     enableDNT = true
