@@ -1,13 +1,13 @@
 <div id="cookie-notice" style = "padding: 0.5rem 1rem; display: none;
 text-align: center; position: fixed; z-index:1; bottom: 0; left: 20px; padding-top: 40px;
-padding-bottom: 30px; width: 100%; background: #274b9f; color: rgba(255,255,255,0.8);">
+padding-bottom: 30px; width: 100%; background: rgba(210,210,210); color: #404040;">
 <span>We would like to use third party cookies and scripts to improve the 
 functionality of this website.</span>
 <br>
 <!--<a id="cookie-notice-accept" class="btn btn-primary btn-sm" style="font-weight: 600; display: inline-flex; cursor: pointer; margin: 0.5rem; padding: 8px; color:rgb(86, 228, 58); background: #f2f2f1;">Approve</a>
 <a id="cookie-notice-deny" class="btn btn-primary btn-sm" style = "font-weight: 600; display: inline-flex; cursor: pointer; margin: 0.5rem; padding: 8px; color:rgb(243, 34, 34); background: #f2f2f1;">Deny</a>-->
-<input id="cookie-notice-accept" type="submit" value="Accept">
-<input id="cookie-notice-deny" type="submit" value="Deny">
+<input id="cookie-notice-accept" type="submit" value="ALLOW" style="background: #274b9f; cursor: pointer; color: white; font-size: .875rem; padding: 10px 10px 8px 10px; margin: 0.5rem; letter-spacing: 1.5px; border-radius: 0; border-color: transparent;" onmouseover="this.style.background='#2c2857';" onmouseout="this.style.background='#274b9f';">
+<input id="cookie-notice-deny" type="submit" value="ESSENTIALS ONLY" style="background: rgb(159, 39, 39); cursor: pointer; color: white; font-size: .875rem; padding: 10px 10px 8px 10px; margin: 0.5rem; letter-spacing: 1.5px; border-radius: 0; border-color: transparent;" onmouseover="this.style.background='rgb(113, 27, 27)';" onmouseout="this.style.background='rgb(159, 39, 39)';">
 <a href="/privacy" class="btn btn-primary btn-sm" style = " margin-left: 0.5rem;">More info</a></div>
 <script>
     function createCookie(name,value,days) {

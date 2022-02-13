@@ -141,20 +141,25 @@ enableRobotsTXT = true
     url = "/license/"
     weight = 1
   [[menu.footer]]
+    name = "Privacy"
+    title = "Privacy"
+    url = "/privacy/"
+    weight = 2
+  [[menu.footer]]
     name = "Contact"
     title = "Contact form"
     url = "/contact/"
-    weight = 2
+    weight = 3
   [[menu.footer]]
     name = "Categories"
     title = "Categories"
     url = "/categories/"
-    weight = 3
+    weight = 4
   [[menu.footer]]
     name = "Tags"
     title = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 5
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]
