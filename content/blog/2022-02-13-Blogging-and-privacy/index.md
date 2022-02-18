@@ -1,7 +1,7 @@
 ---
 title: "Blogging and data privacy"
-subtitle: "My experience in following data privacy laws on my blog"
-excerpt: "Data privacy is important and enforced by various laws. But it can be challenging to know how to follow them. In this article I'm sharing my experience."
+subtitle: "My experience in navigating data privacy laws on my blog"
+excerpt: "Data privacy is important and enforced by various laws. But it can be challenging to know how to navigate them. In this article I'm sharing my experience."
 date: 2022-02-13
 author: "Thomas Lieb"
 draft: true
@@ -13,7 +13,7 @@ layout: single # single or single-sidebar
 slug: blogging-and-privacy
 ---
 
-> **Disclaimer**: Nothing I say/write here is legal advice. I do my best to not be wrong, but there's no guarantee.
+> **Disclaimer**: Nothing I say/write here is legal advice. I do my best to not be wrong, but I am not a legal expert.
 
 **TLDR**: {{< param excerpt >}}
 
