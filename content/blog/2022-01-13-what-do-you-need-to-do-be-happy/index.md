@@ -45,6 +45,24 @@ Ideas:
   * Experiencing it for yourself is critical in my experience. I tried to make sense and thought I could, but that did not change anything. Contrary, it made me maybe even unhappier because it did not make me happier^^. It's about experience not making sense.
   * full happiness and contentment likely illusionary for all of us. but what if it helps you to be just let's say 10% happier (mention book)? What if your felt self worth depends just a little less on your job
 
+https://www.theatlantic.com/magazine/archive/2022/03/why-we-are-never-satisfied-happiness/621304/
+* idea that satisfaction = getting what you want
+* always slips away, never lasting, hedonic treadmill
+* dissatisfaction designed by natural selction to keep us moving forward?
+* Satisfaction = what you have ÷ what you want
+* secret is to manage our wants
+
+
+book about evolutionary psychology
+* brains are not made to make us happy
+
+critical
+* https://www.theguardian.com/lifeandstyle/2019/jun/14/the-mindfulness-conspiracy-capitalist-spirituality
+  * about the self focused not being able to change the world
+* book that criticises non judgement
+  * we're always judging. true.
+  * I interpret non-judgement in terms of not actively pursuing judgement when meditating. Helps to be open and curious. Also in life it helps to not actively judge certain things right away.
+
 **TLDR**: {{< param excerpt >}}
 
 ## Motivation
