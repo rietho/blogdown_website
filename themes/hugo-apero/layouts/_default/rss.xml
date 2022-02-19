@@ -33,9 +33,6 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Description | default .Params.excerpt | html }}</description>
-      {{ if and (isset .Params "banners") (not (eq .Params.banner "")) }}
-      {{ printf "<![CDATA[<img src=\"%s%s\" width=\"70\" height=\"40\"/>]]>" (.Permalink) (.Params.banner) }}
-      {{ end }}
       <image>
         <url>{{ .Permalink }}featured.png</url>
         <link>{{ .Permalink }}</link>
