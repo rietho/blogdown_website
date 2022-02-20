@@ -136,30 +136,35 @@ enableRobotsTXT = true
     
   # Configure footer  
   [[menu.footer]]
+    name = "Subscribe"
+    title = "subscribe"
+    url = "/subscribe/"
+    weight = 1
+  [[menu.footer]]
     name = "License"
     title = "License"
     url = "/license/"
-    weight = 1
+    weight = 2
   [[menu.footer]]
     name = "Privacy"
     title = "Privacy"
     url = "/privacy/"
-    weight = 2
+    weight = 3
   [[menu.footer]]
     name = "Contact"
     title = "Contact form"
     url = "/contact/"
-    weight = 3
+    weight = 4
   [[menu.footer]]
     name = "Categories"
     title = "Categories"
     url = "/categories/"
-    weight = 4
+    weight = 5
   [[menu.footer]]
     name = "Tags"
     title = "Tags"
     url = "/tags/"
-    weight = 5
+    weight = 6
 
 # see https://gohugo.io/about/hugo-and-gdpr/    
 [privacy]

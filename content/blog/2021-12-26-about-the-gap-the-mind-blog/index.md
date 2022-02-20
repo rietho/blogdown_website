@@ -1,7 +1,7 @@
 ---
 title: "About the Gap the Mind Blog"
 subtitle: "An experiment and a journey on writing about data science, management and mental health"
-excerpt: "The 'Gap the Mind' blog is an experiment and a journey on writing about data science, management and mental health."
+excerpt: "The 'Gap the Mind' blog is an experiment and a journey on writing about data science, management and mental health. In this post I elaborate on where the name is coming from and more details on the topics I want to blog about."
 date: 2022-02-06
 author: "Thomas Lieb"
 draft: false
