@@ -8,8 +8,8 @@ cascade:
     show_sidebar_adunit: false
     text_link_label: View recent posts
     text_link_url: /blog/
-description: "A personal blog about\n
-  data science, management or mental health\n"
+description: A personal blog about data science, management or mental health<br/><br/>
+  <span class="f5 pv4 tr ttu tracked"><a href="/subscribe/" class="dim no-underline">Subscribe &rarr;</a></span>
 layout: list-grid
 show_author_byline: true
 show_button_links: true

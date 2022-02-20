@@ -10,7 +10,9 @@ url: archive
 slug: archive
 ---
 
-You can check posts also by [tags](../tags) or [categories](../categories)
+You can check posts also by [tags](../tags) or [categories](../categories).
+
+<span class="f5 pv4 tr ttu tracked"><a href="/subscribe/" class="dim no-underline">Subscribe &rarr;</a></span>
 
 ```{r include=FALSE}
 library(conflicted)
