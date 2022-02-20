@@ -4,7 +4,7 @@ subtitle: "My experience in navigating data privacy laws on my blog"
 excerpt: "Data privacy is important and enforced by various laws. But it can be challenging to know how to navigate them. In this article I'm sharing my experience."
 date: 2022-02-13
 author: "Thomas Lieb"
-draft: true
+draft: false
 series:
 tags: [blog, privacy]
 categories:
@@ -61,7 +61,15 @@ This is the very tricky part. In the end, what to do depends on many factors lik
 
 The simplest solution to me seems to be to not collect any data at all. That is not by myself and not by any third party. For a static website, this means not embedding any third-party content that is tracking data. Sounds easy. The challenge is that this approach comes with limitations. For example, not using any website analytics tool means that you can't see how many people read your blog posts and it's a lot harder to know which posts people are most interested in. Not embedding social media postings or GIFs means fewer opportunities to loosen up your content.
 
-When using Hugo, there are actually some very easy and great ways how to still embed third party content without having them track data. By setting a few parameters you can control privacy settings for popular third party content like Google Analytics, Instagram, Twitter, Vimeo or Youtube. See [here](https://gohugo.io/about/hugo-and-gdpr/) for more info. For some third parties, Hugo actually offers a `simple`-mode, which means that Hugo creates a pure HTML version of the content that does not come with any tracking. I am not 100% sure, but these settings may only apply when using [Hugo's Shortcodes](https://gohugo.io/content-management/shortcodes/#tweet). Here is an example for Twitter:
+When using Hugo, there are actually some very easy and great ways how to still embed third party content without having them track data. By setting a few parameters you can control privacy settings for popular third party content like Google Analytics, Instagram, Twitter, Vimeo or Youtube. See [here](https://gohugo.io/about/hugo-and-gdpr/) for more info. For some third parties, Hugo actually offers a `simple`-mode, which means that Hugo creates a pure HTML version of the content that does not come with any tracking. I am not 100% sure, but these settings may only apply when using [Hugo's Shortcodes](https://gohugo.io/content-management/shortcodes/#tweet). Here is an example for Twitter.
+
+The shortcode:
+
+```markdown
+{{</* tweet user="Headspace" id="1492510305058004994" */>}}
+```
+
+The rendered result:
 
 {{< tweet user="Headspace" id="1492510305058004994" >}}
 
@@ -71,9 +79,9 @@ When you do want to use third party content, things get a bit trickier. It is my
 
 Implementing cookie consent banners on a static website is actually not that easy. Initially, I did implement a cookie banner for Google Analytics, which I'll describe in a bit. 
 
-However, some recent court rulings in the EU found that a specific website in each Austria and France [cannot use Google Analytics because it transfers personal data to the United States in breach of EU privacy law](https://www.politico.eu/article/french-privacy-regulator-rules-against-use-of-google-analytics/). The French data privacy regulator stated that measures from Google ["are not sufficient to exclude the accessibility of this data to U.S. intelligence services"](https://www.reuters.com/technology/french-watchdog-says-google-analytics-poses-data-privacy-risks-2022-02-10/). You can also read on [Wikipedia about privacy concerns](https://en.wikipedia.org/wiki/Privacy_concerns_regarding_Google). [Here](https://blog.google/around-the-globe/google-europe/its-time-for-a-new-eu-us-data-transfer-framework/)'s also a statement from Google on that topic.
+However, two recent court rulings in Austria and France found that specific websites [cannot use Google Analytics because it transfers personal data to the United States in breach of EU privacy law](https://www.politico.eu/article/french-privacy-regulator-rules-against-use-of-google-analytics/). The French data privacy regulator stated that measures from Google ["are not sufficient to exclude the accessibility of this data to U.S. intelligence services"](https://www.reuters.com/technology/french-watchdog-says-google-analytics-poses-data-privacy-risks-2022-02-10/). You can also read on [Wikipedia about privacy concerns](https://en.wikipedia.org/wiki/Privacy_concerns_regarding_Google). Google [responded](https://blog.google/around-the-globe/google-europe/its-time-for-a-new-eu-us-data-transfer-framework/) via highlighting the need for a "new EU-US data transfer framework".
 
-I am not too deep into the data privacy topic, but for me, the aforementioned aspects create enough uncertainty to decide on not using Google Analytics for now. I'd love to know how many people visit my blog, but not at the risk of violating the data privacy rights of my readers. **So, please leave comments and reach out instead :smile:**
+I am not too deep into the data privacy topic, but for me, the aforementioned aspects create enough uncertainty to decide on not using Google Analytics or any other online analytics tool for now. I'd love to know how many people visit my blog, but not at the risk of violating the data privacy rights of my readers. **So, please leave comments and reach out instead :smile:**
 
 #### Cookie Consent Banner
 
@@ -85,7 +93,7 @@ The HTML file `cookie-consent.html` basically holds the cookie banner along with
 
 * Creating an essential cookie to store the user's agreement or disagreement with cookies. It seems weird that a cookie is needed to decide on cookies. But the created cookie is in my understanding an "essential" cookie that does not hold any personally identifiable information. In my understanding [essential / strictly necessary cookies](https://gdpr.eu/cookies/) are always fine to be stored.
 * If the user agrees, it creates the Google Analytics cookie.
-* If the user disagrees, it removes the cookie banner.
+* If the user disagrees, it removes the cookie banner and does not create a Google Analytics cookie.
 
 The LittleBigTech blog post has a template for the HTML file. The blog post also has CSS to style the banner. In my case of the Apéro Hugo theme, I could not find a CSS file to add to. So, as suggested I added a bunch of style tags in my HTML file, which you can find [here](https://github.com/rietho/blogdown_website/pull/6/files#diff-90b6e61439c65204a847f8a025e2919732907c8ae0f4358a156c48ad3aadedc3).
 
