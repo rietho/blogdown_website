@@ -33,12 +33,11 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Description | default .Params.excerpt | html }}</description>
-      <image>
-        <url>{{ .Permalink }}featured.png</url>
-        <link>{{ .Permalink }}</link>
-      </image>
-      <media:content type="image/png" medium="image" width="700" height="400" url="{{ .Permalink }}featured.png">
+      {{/* a potential way to do this better: https://jdheyburn.co.uk/blog/who-goes-blogging-6-three-steps-to-improve-hugos-rss-feeds/ */}}
+      {{ if os.FileExists (printf "%s/featured.png" .File.Dir) }}
+      <media:content type="image/png" medium="image" width="700" height="394" url="{{ .Permalink }}featured.png">
       </media:content>
+      {{ end }}
     </item>
     {{ end }}
   </channel>
