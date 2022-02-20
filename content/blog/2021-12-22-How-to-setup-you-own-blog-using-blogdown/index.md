@@ -1,7 +1,7 @@
 ---
 title: "How to set up your own blog (using R and blogdown)"
 subtitle: "A guide (for R users) to a beautiful blog"
-excerpt: "This post is a brief overview on how you can build your own blog. I share my own experience based on the R package blogdown."
+excerpt: "Blogging is a fun and easy way to share your ideas online. Here I share an overview on how you can build your own blog. I share my own experience based on the R package blogdown along with some pointers to alternative approaches."
 date: 2022-01-30
 author: "Thomas Lieb"
 draft: false
