@@ -32,12 +32,16 @@ Keen on knowing what is happening with yourself? Try awareness
 
 I'd say the core of mindfulness is awareness. This is well conveyed by the following definition of mindfulness:
 
-> *Being aware of what is happening while it is happening*   
+> *Being aware of what is happening while it is happening*  
 > (source TBD)
 
 This may sound incredibly simple and as a concept it is. But it is by no means easy to do. Let me give you an example to showcase how much there is to be aware of in every single moment of life. Let's say you are walking down the street. You got up late and you are late for work. This may case many emotions like stress because you don't want to be late. You might be angry at yourself because you woke up late again. You may also be angry at your flatmate because he occupied the bathroom for 30min. You might also be worried because of that assignment due today and not yet finished. You might also be thinking about the date you had last night and wondering what impression you made. You want to get it right, because this may lead to a promotion. There might also be cars, bikes and other pedestrians passing by. There might be a mix of clouds and clear sky and some dark clouds on the horizon. There might also be various birds around chirping and going minding their morning routine. And there may be so much more. But do you think that you'd be aware of all of that?
 
-One very important aspect of awareness is being vs. doing. Just think about above the situation walking down the street. Usually, while walking, we are thinking about what to do about stuff in the future, e.g. the work assignment, or things in the past, e.g. the date. This state of wanting to do something, about achieving goals or rumination is called *doing mode*. In doing mode one typically want to do something. On the contrary, in *being mode* one is experining the present moment. That might be sensations like temperature, a breeze on your skin, birds chirping and so on. Thus, basically "raw" sensations through ones senses. By "raw" I am referring to the sensation e.g. of the sound itself. That is as experiences trigger a lot of reactions like interpretations, memories or emotions. For example the sound of a bird chirping. Identifying the sound as a bird chirping is already an interpretation. At the same time, this may make you feel comnfortable, it might remind you of last summer when you were sitting in a park and so on. But being also includes experiencing ones emotions or thoughts. There is an extremely experience rich world happening in every moment inside and outside yourself.
+One very important aspect of awareness is being vs. doing. Just think about above the situation walking down the street. Usually, while walking, we are thinking about what to do about stuff in the future, e.g. the work assignment, or things in the past, e.g. the date. This state of wanting to do something, about achieving goals or rumination is called *doing mode*. In doing mode one typically want to do something. On the contrary, in *being mode* one is experining the present moment. That might be sensations like temperature, a breeze on your skin, birds chirping and so on. Thus, basically "raw" sensations through ones senses. By "raw" I am referring to the sensation e.g. of the sound itself. That is as experiences trigger a lot of reactions like interpretations, memories, bodily sensations or emotions. For example the sound of a bird chirping. Identifying the sound as a bird chirping is already an interpretation. At the same time, this may make you feel comnfortable, it might remind you of last summer when you were sitting in a park and so on. But being also includes experiencing ones emotions or thoughts. There is an extremely experience rich world happening in every moment inside and outside yourself.
+
+Being and doing mode are complementary. It is not about one being better than to other or just focusing on one over the other. I believe that it is rather important to be able to be able to keep them in balance. Both are have their place and both are very useful. But loosing touch to one of them can easily lead to being out of touch with the world including yourself. I would argue that in today's world we are having a strong focus on doing mode. Being mode is something I have rarely encountered in my life so far, that is at least before I started mindfulness meditation. TBD
+
+Being mode can be very hard to understand in today's world. And it can be very easy and tempting to approach being mode and mindfulness overall with a doing mindset.
 
 There are different types of awareness. One way to categorize is (source: Institute of you, TBD):
 
@@ -54,6 +58,16 @@ But there are also different types of self awareness. One categorization I came 
 I wanna call out that awareness and esp. self awareness ist not just to have. Self awareness is a skill that comes with huge benefits. It basically gives you the possibility to respond to what is happening rather than just reacting. Think for example about a customer at a hotel reception screaming and shouting at the receptionist because they are unhappy with their room. Most likely that person is just reacting and being led by their emotions. With self awareness they could have observed that they feel anger enabling them to decide what to do next. A person could decide to take some time to calm down, to breathe and to think about what they want to do next to resolve the situation they are in.
 
 Being aware of your own emotions and allowing you to respond is huge in itself. But self awareness can help you with many other aspects like realizing own biases, observing your own habits, observing how you communicate, how you make decisions, what actually makes you happy and fulfilled, how experiences and memories shape our decision making and a lot more. If you wanna hear more about the advantages of self awareness, please leave a comment.
+
+The idea of awareness is certainly not to be aware of everything all the time. First, it is unrealistic to be aware of everything. And it is not helpful to focus on awareness all the time. But awareness is something you can train and that can become an unconscious as well as conscious habit. TBD
+
+<div class="warning" style='background-color:#E9D8FD; color: #69337A; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+This is some example text.
+</p>
+</span>
+</div>
 
 ## Meditation
 

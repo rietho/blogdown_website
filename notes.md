@@ -2,6 +2,16 @@
 
 > A document for notes about my blog
 
+# Ideas to consider
+
+-   table of contents for blog posts to help navigate
+-   Ideas to edit posts
+    -   Keep sentences & paragraphs short
+    -   make it easy to skim post
+    -   Use highlights
+        -   Boxes for ideas
+        -   Highlight short sentences
+
 ## Blog Post Ideas
 
 -   Pretenses (Vorwände) instead of arguments in discussions
@@ -20,8 +30,6 @@
     -   Goals as a tool are often misused
 -   Positions vs. interests / needs
     -   Positions are often expressed with the intention to serve a need. But that is flawed
-
         -   the position might not fulfill the need, you might not even know what the need is
         -   even if position fulfills the need, it is just one position. typically there are many positions that can fulfill a need. positions are very limiting, but needs open up a lot of possibilities.
 -   
-
