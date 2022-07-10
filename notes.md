@@ -5,6 +5,9 @@
 # Ideas to consider
 
 -   table of contents for blog posts to help navigate
+    -   <https://github.com/hugo-apero/hugo-apero/pull/29>
+
+    -   maybe also [Table of Contents \| Hugo](https://gohugo.io/content-management/toc/)
 -   Ideas to edit posts
     -   Keep sentences & paragraphs short
     -   make it easy to skim post

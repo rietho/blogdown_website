@@ -59,15 +59,24 @@ I wanna call out that awareness and esp. self awareness ist not just to have. Se
 
 Being aware of your own emotions and allowing you to respond is huge in itself. But self awareness can help you with many other aspects like realizing own biases, observing your own habits, observing how you communicate, how you make decisions, what actually makes you happy and fulfilled, how experiences and memories shape our decision making and a lot more. If you wanna hear more about the advantages of self awareness, please leave a comment.
 
+<div class="b--black-10 v-base" style='padding:0.7em; margin-top:1em;  margin-bottom:1em; background-color:#e8e8e8'>
+<span>
+<p style='text-align:center'>
+:bulb: Example idea
+</p>
+</div>
+
 The idea of awareness is certainly not to be aware of everything all the time. First, it is unrealistic to be aware of everything. And it is not helpful to focus on awareness all the time. But awareness is something you can train and that can become an unconscious as well as conscious habit. TBD
 
-<div class="warning" style='background-color:#E9D8FD; color: #69337A; border-left: solid #805AD5 4px; border-radius: 4px; padding:0.7em;'>
+<div class="info" style=' padding:0.7em;'>
 <span>
-<p style='margin-top:1em; text-align:center'>
-This is some example text.
+<p class="f3-ns measure lh-copy" style='margin-top:1em; color:#274b9f; font-family: "EB Garamond"; font-style: italic; text-align:center'>
+This is some highlighted example text.
 </p>
 </span>
 </div>
+
+bla bla
 
 ## Meditation
 
