@@ -5,8 +5,9 @@
 # Ideas to consider
 
 -   table of contents for blog posts to help navigate
+    -   has TOC: <https://meghan.rbind.io/blog/quarto-slides/>
+    -   docs site has TOC too
     -   <https://github.com/hugo-apero/hugo-apero/pull/29>
-
     -   maybe also [Table of Contents \| Hugo](https://gohugo.io/content-management/toc/)
 -   Ideas to edit posts
     -   Keep sentences & paragraphs short
@@ -35,4 +36,4 @@
     -   Positions are often expressed with the intention to serve a need. But that is flawed
         -   the position might not fulfill the need, you might not even know what the need is
         -   even if position fulfills the need, it is just one position. typically there are many positions that can fulfill a need. positions are very limiting, but needs open up a lot of possibilities.
--   
+-   Fundamental attribution error 
