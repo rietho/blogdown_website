@@ -2,6 +2,10 @@
 
 > A document for notes about my blog
 
+# TODO
+
+-   mention consent management platforms
+
 # Ideas to consider
 
 -   table of contents for blog posts to help navigate
@@ -37,3 +41,21 @@
         -   the position might not fulfill the need, you might not even know what the need is
         -   even if position fulfills the need, it is just one position. typically there are many positions that can fulfill a need. positions are very limiting, but needs open up a lot of possibilities.
 -   Fundamental attribution error 
+
+## Templates
+
+### Imgflip
+
+<p style="margin-bottom:0;"><a href="https://imgflip.com/i/645rhy"><img src="https://i.imgflip.com/645rhy.jpg" title="made at imgflip.com"  width="80%" style="display:block"/></a></p>
+
+<p style="color:grey; font-size:0.7em; margin:0;">
+<a href="https://imgflip.com/memegenerator" target="_blank">from Imgflip Meme Generator</a>
+</p>
+
+## Unsplash
+
+<img src="featured.png" alt="Photo of a work desk with keyboard, headphones, a notebook and a cup of coffee. The coffee cup has 2 speech bubbles attached. 1: 'I wanna create my own blog. And I know some R.' 2: 'But how? Thinking emoji'" width="100%"/> <p style="color:grey; font-size:0.7em; margin:0;"> Original photo by <a href="https://unsplash.com/@goumbik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Lukas Blazek</a> on <a href="https://unsplash.com/s/photos/blog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>. </p>
+
+## Screenshot
+
+<img src="screenshot_archive.png" alt="Archive Page Screenshot" width="98%" style="border: 5px solid white;"/>
