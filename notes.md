@@ -22,6 +22,7 @@
 
 ## Blog Post Ideas
 
+-   How to get started with mindfulness
 -   Pretenses (Vorwände) instead of arguments in discussions
 -   We are making lots of assumptions in daily life / conversations
 -   Sender-Receiver model: intention, said, heard, understood (many things can go wrong, we are often stuck with what was said)
@@ -40,7 +41,7 @@
     -   Positions are often expressed with the intention to serve a need. But that is flawed
         -   the position might not fulfill the need, you might not even know what the need is
         -   even if position fulfills the need, it is just one position. typically there are many positions that can fulfill a need. positions are very limiting, but needs open up a lot of possibilities.
--   Fundamental attribution error 
+-   Fundamental attribution error
 
 ## Templates
 
@@ -59,3 +60,23 @@
 ## Screenshot
 
 <img src="screenshot_archive.png" alt="Archive Page Screenshot" width="98%" style="border: 5px solid white;"/>
+
+## Idea
+
+<div class="b--black-10 v-base" style='padding:0.7em; margin-top:1em;  margin-bottom:1em; background-color:#d6dff5'>
+<span>
+<p style='text-align:center'>
+:bulb: Example idea
+</p>
+</span>
+</div>
+
+## Highlight
+
+<div class="info" style=' padding:0.7em;'>
+<span>
+<p class="f3-ns measure lh-copy" style='margin-top:1em; color:#274b9f; font-family: "EB Garamond"; font-style: italic; text-align:center'>
+This is some highlighted example text.
+</p>
+</span>
+</div>
