@@ -42,6 +42,11 @@
         -   the position might not fulfill the need, you might not even know what the need is
         -   even if position fulfills the need, it is just one position. typically there are many positions that can fulfill a need. positions are very limiting, but needs open up a lot of possibilities.
 -   Fundamental attribution error
+-   What we think we want, and what we actually want?
+-   Imposter syndrome: the good, the bad and the ugly
+-   Your favourite book on mindfulness?
+-   The bad reputation of negotiation
+-   Goals are misunderstood: About direction, rather than achieving them
 
 ## Templates
 
