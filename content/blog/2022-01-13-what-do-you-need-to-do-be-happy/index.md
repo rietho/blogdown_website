@@ -1,5 +1,5 @@
 ---
-title: "What Do You Need to Do to Be Happy? Nothing, Except to Be!"
+title: "WIP: What Do You Need to Do to Be Happy? Nothing, Except to Be!"
 subtitle: "A bold idea that might actually have some truth to it"
 excerpt: " In the western world we define ourselves and others through what we achieve and what we have. We pursue goeals to achieve happiness which is always temporary. A contrary and somewhat idea is that we can achieve happiness and contentment simply via being. This post follows this idea to explore if and how it might actually help us being happy."
 date: 2022-01-13

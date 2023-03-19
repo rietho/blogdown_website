@@ -1,5 +1,5 @@
 ---
-title: "Mindfulness? What? Why? Are You Sure?"
+title: "WIP: Mindfulness? What? Why? Are You Sure?"
 subtitle: ""
 excerpt: "TBD"
 date: 2022-01-18

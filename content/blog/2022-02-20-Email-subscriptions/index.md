@@ -1,5 +1,5 @@
 ---
-title: "Integrating email subscriptions into your blog"
+title: "WIP: Integrating email subscriptions into your blog"
 subtitle: "How to offer readers to subscribe via email to new blog posts"
 excerpt: "TBD"
 date: 2022-02-20
