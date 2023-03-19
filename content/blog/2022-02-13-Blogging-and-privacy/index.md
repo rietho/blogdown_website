@@ -6,7 +6,7 @@ date: 2022-02-13
 author: "Thomas Lieb"
 draft: false
 series:
-tags: [blog, privacy]
+tags: [blog, data-privacy, hugo-website-framework]
 categories:
   - Data Science
 layout: single # single or single-sidebar
