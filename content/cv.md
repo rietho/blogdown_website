@@ -13,6 +13,6 @@ See https://github.com/rietho/cv for the CV source code.
     title="CV"
     width="100%"
     height="1100"
-    src="https://rawcdn.githack.com/rietho/cv/d6b713a962579b69d9c56a439cb458f888a6042f/cv.html">
+    src="https://rawcdn.githack.com/rietho/cv/81ec933113ee83ab9b48673d5545ebecb2b8f904/cv.html">
 </iframe>
 
