@@ -7,7 +7,7 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-I'm an Austrian :flag-at: living in Germany :flag-de: after having lived in Ireland :flag-ie: for 6 years and working in the data industry. My educational background is in mathematics, statistics and conflict management. On this blog, I write about topics I'm passionate about. At least for a start, my posts will revolve around 3 main themes:
+I'm an Austrian :flag-at: living in Germany :de: after having lived in Ireland :flag-ie: for 6 years and working in the data industry. My educational background is in mathematics, statistics and conflict management. On this blog, I write about topics I'm passionate about. At least for a start, my posts will revolve around 3 main themes:
 
 1. Data science and in particular the R programming language
 2. People management and leadership
